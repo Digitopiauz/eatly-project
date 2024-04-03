@@ -55,7 +55,7 @@ body {
 
 @media (min-width: 375px) {
   [class*="_container"] {
-    width: 314px;
+    width: 332px;
   }
 }
 

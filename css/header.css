@@ -33,9 +33,6 @@
     border-bottom: 0.71px solid #cbcbcb;
   }
 
-  .header_logo__link {
-  }
-
   .header_logo {
     width: 79.49px;
     height: 30.09px;
@@ -96,10 +93,14 @@
 }
 
 @media (min-width: 1440px) {
-  .header {
-  }
-
   .header__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 8;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,9 +116,6 @@
     align-items: center;
   }
 
-  .header_logo__link {
-  }
-
   .header_logo {
     width: 111.94px;
     height: 42.31px;
@@ -126,9 +124,6 @@
   .header_menu {
     display: flex;
     align-items: center;
-  }
-
-  .menu {
   }
 
   .menu__list {
