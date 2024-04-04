@@ -185,6 +185,7 @@
   .hero_container {
     display: flex;
     gap: 26px;
+    padding: 90px 0 60px;
   }
   .hero_subtitle {
     padding: 0 0 0 52px;
@@ -249,10 +250,6 @@
 }
 
 @media (min-width: 1440px) {
-  .hero {
-    padding: 90px 0 100px;
-  }
-
   .hero_container {
     display: flex;
     align-items: center;
