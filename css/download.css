@@ -82,6 +82,8 @@
   border-radius: 15px;
   color: #fff;
 }
+.download_icon {
+}
 
 @media (min-width: 375px) {
   .download_container {

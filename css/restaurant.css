@@ -251,3 +251,9 @@
   .restaurant_button_icon {
   }
 }
+
+@media (min-width: 1440px) {
+  .restaurant_title {
+    margin: 0 0 85px 0;
+  }
+}

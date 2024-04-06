@@ -5,6 +5,7 @@
 @import url(./features.css);
 @import url(./download.css);
 @import url(./restaurant.css);
+@import url(./food.css);
 
 *,
 *::before,
@@ -73,4 +74,31 @@ body {
     width: 1248px;
   }
 }
-/* ---------- ----------header---------- ---------- */
+
+.btn-border {
+  border: 1px solid transparent;
+}
+
+.btn-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.btn:hover {
+  color: #6c5fbc;
+  border: 1px solid #6c5fbc;
+  cursor: pointer;
+
+  background-color: #ffffff;
+}
+
+.color:hover {
+  cursor: pointer;
+  color: #6c5fbc;
+}
+
+.center {
+  text-align: center;
+}
