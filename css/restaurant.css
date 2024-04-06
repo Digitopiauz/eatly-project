@@ -1,0 +1,253 @@
+.restaurant {
+  padding: 0 0 100px 0;
+  color: #323142;
+}
+
+.restaurant_container {
+}
+
+.restaurant_title {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 25.56px;
+  text-align: center;
+  margin: 0 0 85px 0;
+}
+
+.restaurant_title span {
+  color: #6c5fbc;
+}
+
+.restaurant_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 30px;
+  margin-bottom: 65px;
+}
+
+.restaurant_item {
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1.44089px solid #f4f4f6;
+  box-shadow: 6px 71px 36px rgba(229, 229, 229, 0.7);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.restaurant_item:hover {
+  transform: scale(1.1);
+}
+
+.restaurant_img {
+  position: relative;
+}
+
+.restaurant_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(50, 49, 66, 0.1);
+}
+
+.restaurant_img_img {
+  width: 100%;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.restaurant_info {
+  padding: 10px 10px 17px 35px;
+}
+
+.restaurant_info_tag {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.tag-yellow {
+  background: #f7edd0;
+  color: #daa31a;
+}
+
+.tag-red {
+  background: #f7c5ba;
+  color: #fb471d;
+}
+
+.restaurant_name {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+
+  /* margin: 5px 0 0 0; */
+}
+
+.restaurant_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  column-gap: 30px;
+}
+.restaurant_min {
+  font-family: Manrope;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #8e97a6;
+}
+
+.restaurant_rating {
+  flex: 1 1 auto;
+  position: relative;
+}
+
+.restaurant_rating::before {
+  position: absolute;
+  content: "";
+  top: 10%;
+  right: 100%;
+  background-image: url("../img/restartnt/star.svg");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+}
+
+.restaurant_button_icon {
+  cursor: pointer;
+  background-color: #dbd9ee;
+  padding: 6px 10px 3px;
+  border-radius: 100%;
+}
+
+@media (min-width: 375px) {
+  .restaurant_container {
+  }
+
+  .restaurant_title {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+
+    margin: 0 0 25px 0;
+  }
+
+  .restaurant_list {
+    grid-template-columns: 1fr;
+  }
+
+  .restaurant_item {
+  }
+
+  .restaurant_img {
+  }
+
+  .restaurant_img_img {
+  }
+
+  .restaurant_info {
+  }
+
+  .restaurant_info_tag {
+  }
+
+  .restaurant_name {
+  }
+
+  .restaurant_button {
+  }
+
+  .restaurant_min {
+  }
+
+  .restaurant_rating {
+  }
+
+  .restaurant_button_icon {
+  }
+}
+
+@media (min-width: 991px) {
+  .restaurant_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .restaurant_container {
+  }
+
+  .restaurant_title {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 18px;
+
+    margin: 0 0 60px 0;
+  }
+
+  .restaurant_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .restaurant_item {
+  }
+
+  .restaurant_img {
+  }
+
+  .restaurant_img_img {
+  }
+
+  .restaurant_info {
+    padding: 7px 19px 12px 24px;
+  }
+
+  .restaurant_info_tag {
+    font-family: Poppins;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+
+  .restaurant_name {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .restaurant_button {
+  }
+
+  .restaurant_min {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+
+  .restaurant_rating {
+  }
+
+  .restaurant_button_icon {
+  }
+}

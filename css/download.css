@@ -29,9 +29,6 @@
   width: 304px;
 }
 
-.download_text {
-}
-
 .download_title {
   font-family: Poppins;
   font-size: 50.92px;
@@ -43,9 +40,6 @@
 
 .download_title span {
   color: #6c5fbc;
-}
-
-.download_list {
 }
 
 .download_item {
@@ -89,20 +83,12 @@
   color: #fff;
 }
 
-.download_icon {
-}
-
 @media (min-width: 375px) {
   .download_container {
     display: flex;
     flex-direction: column-reverse;
   }
 
-  .download_img {
-  }
-
-  .download_img::before {
-  }
   .img {
     width: 170px;
   }
@@ -161,14 +147,8 @@
     flex-direction: row;
   }
 
-  .download_img {
-  }
-
   .img {
     width: 216px;
-  }
-
-  .download_text {
   }
 
   .download_title {
@@ -177,9 +157,6 @@
     font-weight: 700;
     line-height: 41.39px;
     text-align: left;
-  }
-
-  .download_list {
   }
 
   .download_item {
