@@ -30,7 +30,7 @@
 }
 
 .download_title {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 50.92px;
   font-weight: 700;
   line-height: 58.2px;
@@ -96,7 +96,7 @@
   }
 
   .download_title {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 30px;
     font-weight: 700;
     line-height: 34.23px;
@@ -105,7 +105,7 @@
   }
 
   .download_item {
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 11.96px;
     font-weight: 400;
     line-height: 17.94px;
@@ -127,7 +127,7 @@
   }
 
   .download_button {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 11.82px;
     font-weight: 500;
     line-height: 14.78px;
@@ -154,7 +154,7 @@
   }
 
   .download_title {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 36.21px;
     font-weight: 700;
     line-height: 41.39px;
@@ -162,7 +162,7 @@
   }
 
   .download_item {
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14.46px;
     font-weight: 400;
     line-height: 21.69px;
@@ -183,7 +183,7 @@
   }
 
   .download_button {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 12.84px;
     font-weight: 500;
     line-height: 16.05px;
@@ -201,7 +201,7 @@
     width: 304px;
   }
   .download_title {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 50.92px;
     font-weight: 700;
     line-height: 58.2px;
@@ -228,7 +228,7 @@
     background-color: #6c5fbc;
     border-radius: 15px;
     color: #fff;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;

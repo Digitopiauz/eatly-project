@@ -3,7 +3,7 @@
 }
 
 .food_title {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 32px;
   font-weight: 600;
   line-height: 18.17px;
@@ -50,7 +50,7 @@
   border-radius: 5px;
   margin-bottom: 3px;
 
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 11.42px;
   font-weight: 400;
   line-height: 17.13px;
@@ -58,7 +58,7 @@
 }
 
 .food_name {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 23.05px;
   font-weight: 600;
   line-height: 37.46px;
@@ -76,7 +76,7 @@
 }
 
 .food_min {
-  font-family: Manrope;
+  font-family: "Manrope";
   font-size: 17.29px;
   font-weight: 400;
   line-height: 23.05px;
@@ -85,7 +85,7 @@
 }
 
 .food_rating {
-  font-family: Manrope;
+  font-family: "Manrope";
   font-size: 17.29px;
   font-weight: 400;
   line-height: 23.05px;
@@ -100,7 +100,7 @@
 }
 
 .food_cost {
-  font-family: Manrope;
+  font-family: "Manrope";
   font-size: 17.29px;
   font-weight: 400;
   line-height: 23.05px;
@@ -108,7 +108,7 @@
 }
 
 .food_cost span {
-  font-family: Manrope;
+  font-family: "Manrope";
   font-size: 18.81px;
   font-weight: 700;
   line-height: 40.34px;
@@ -121,4 +121,116 @@
   background: #323142;
   padding: 10px 10px 5px;
   border-radius: 9px;
+}
+
+@media (min-width: 375px) {
+  .food_list {
+    grid-template-columns: 1fr;
+  }
+
+  .food_title {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .food_tag {
+    font-family: "Poppins";
+    font-size: 7.47px;
+    font-weight: 400;
+    line-height: 11.21px;
+    text-align: left;
+  }
+
+  .food_name {
+    font-family: "Poppins";
+    font-size: 15.08px;
+    font-weight: 600;
+    line-height: 24.5px;
+    text-align: left;
+  }
+
+  .food_min {
+    font-family: "Manrope";
+    font-size: 11.31px;
+    font-weight: 400;
+    line-height: 15.08px;
+    text-align: left;
+  }
+
+  .food_cost {
+    font-family: "Manrope";
+    font-size: 16.96px;
+    font-weight: 700;
+    line-height: 26.39px;
+    text-align: left;
+  }
+
+  .food_cost span {
+    font-family: "Manrope";
+    font-size: 12.3px;
+    font-weight: 700;
+    line-height: 26.39px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 767px) {
+  .food_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .food_title {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 18.17px;
+    text-align: left;
+  }
+  .food_list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .food_tag {
+    font-family: Poppins;
+    font-size: 8.12px;
+    font-weight: 400;
+    line-height: 12.18px;
+    text-align: left;
+  }
+
+  .food_name {
+    font-family: Poppins;
+    font-size: 16.39px;
+    font-weight: 600;
+    line-height: 26.64px;
+    text-align: left;
+  }
+
+  .food_min {
+    font-family: "Manrope";
+    font-size: 12.3px;
+    font-weight: 400;
+    line-height: 16.39px;
+    text-align: left;
+  }
+
+  .food_cost {
+    font-family: "Manrope";
+    font-size: 18.44px;
+    font-weight: 700;
+    line-height: 28.69px;
+    text-align: left;
+  }
+
+  .food_cost span {
+    font-family: Manrope;
+    font-size: 13.37px;
+    font-weight: 700;
+    line-height: 28.69px;
+    text-align: left;
+  }
 }

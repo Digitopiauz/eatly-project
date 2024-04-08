@@ -1,10 +1,21 @@
+.header {
+  font-family: "Inter";
+}
+
+.menu_item:hover {
+  color: #6c5fbc;
+  cursor: pointer;
+}
 @media (min-width: 375px) {
+  .header {
+    padding: 33px 0 25px 0;
+  }
   .header__container {
     min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 33px 0 25px 0;
+
     border-bottom: 0.5px solid #cbcbcb;
   }
 
