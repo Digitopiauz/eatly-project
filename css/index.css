@@ -59,13 +59,13 @@ body {
 
 @media (min-width: 375px) {
   [class*="_container"] {
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
 }
 
 @media (min-width: 1024px) {
   [class*="_container"] {
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
 }
 
