@@ -1,0 +1,240 @@
+.control {
+  padding: 0 0 100px 0;
+}
+
+.control_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 10px;
+}
+.control_right {
+  flex: 0 1 50%;
+}
+
+.control_title {
+  font-family: "Poppins" sans-serif;
+  font-size: 50.92px;
+  font-weight: 700;
+  line-height: 58.2px;
+
+  margin: 0 0 50px;
+}
+
+.control_title span {
+  color: #6c5fbc;
+}
+
+.control_list {
+  display: grid;
+  grid-template-columns: 0.7fr;
+}
+
+.control_item {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 5px 15px;
+  box-shadow: 0px 20.07px 30.1px 0px #4646461a;
+
+  margin-bottom: 10px;
+}
+
+.control_img {
+  margin-right: 20px;
+}
+
+.control_img img {
+  vertical-align: top;
+  width: 94px;
+  height: 94px;
+}
+.control_info {
+  width: 100%;
+}
+
+.control_info_title {
+  font-family: "Poppins";
+  font-size: 19.06px;
+  font-weight: 600;
+  line-height: 26.69px;
+}
+
+.control_info_status {
+  font-family: "Poppins";
+  font-size: 12.04px;
+  font-weight: 500;
+  line-height: 16.86px;
+
+  margin: 0 0 5px;
+}
+
+.control_info_status-green {
+  color: green;
+}
+.control_info_status-red {
+  color: red;
+}
+
+.control_info_time {
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  color: #acadb9;
+}
+
+.control_left {
+  flex: 0 1 47%;
+  background: #ffffff;
+  border: 1px solid #edf2f7;
+  border-radius: 25px;
+  box-shadow: 0 20px 30px rgba(50, 49, 66, 0.2);
+  padding: 43px;
+}
+
+.control_option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.control_option_title {
+  font-family: "Manrope";
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: 0.3141176700592041px;
+  text-align: left;
+}
+
+.control_option_select {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: 0.6px;
+  color: #1a202c;
+  padding: 12px 18px;
+  background: #fafafa;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.control_option_option {
+}
+
+.control_left_list {
+}
+
+.control_left_item {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #edf2f7;
+  border-radius: 19px;
+  padding: 25px 25px 55px;
+}
+
+.control_left_item::before {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  height: 9.42px;
+  border-radius: 78px;
+  background-color: #6b5fbc;
+  opacity: 0.2;
+}
+
+.control_left_item::after {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  height: 9.42px;
+  border-radius: 78px;
+  background-color: #6b5fbc;
+  width: 70%;
+}
+
+.control_left_item_yellow::before {
+  background-color: #fbac18;
+}
+
+.control_left_item_yellow::after {
+  background-color: #fbac18;
+  width: 60%;
+}
+
+.control_left_icon_text {
+  display: flex;
+  align-items: center;
+}
+.control_left_item_text {
+  margin-left: 15px;
+}
+
+.control_left_item_icon {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: relative;
+  background: #f4f0ff;
+}
+.control_left_item_icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/control/icon/wallet.svg");
+}
+
+.control_left_item_icon_money::before {
+  content: "";
+  background-image: url("../img/control/icon/money.svg");
+}
+
+.money_bg {
+  background-color: #f2fdf6;
+}
+
+.control_left_item_title {
+  font-family: "Manrope";
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0.6282353401184082px;
+  text-align: left;
+  margin: 0 0 7px 0;
+}
+
+.control_left_text {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.6282353401184082px;
+  text-align: left;
+
+  color: #a0aec0;
+}
+
+.control_left_item_price {
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0.3141176700592041px;
+  text-align: right;
+}

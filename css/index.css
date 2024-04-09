@@ -1,12 +1,13 @@
 /* ---------- ----------HTML Setting---------- ---------- */
 @import url(/fonts/font.css);
-@import url(./varibles.css);
+
 @import url(./header.css);
 @import url(./hero.css);
 @import url(./features.css);
 @import url(./download.css);
 @import url(./restaurant.css);
 @import url(./food.css);
+@import url(./control.css);
 
 *,
 *::before,
@@ -59,7 +60,7 @@ body {
 
 @media (min-width: 375px) {
   [class*="_container"] {
-    /* padding: 0 15px; */
+    padding: 0 15px;
   }
 }
 
