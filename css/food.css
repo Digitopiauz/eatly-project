@@ -123,7 +123,7 @@
   border-radius: 9px;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .food_list {
     grid-template-columns: 1fr;
   }

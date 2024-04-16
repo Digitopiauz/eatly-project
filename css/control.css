@@ -27,7 +27,7 @@
 
 .control_list {
   display: grid;
-  grid-template-columns: 0.7fr;
+  grid-template-columns: 0.6fr;
 }
 
 .control_item {
@@ -47,8 +47,6 @@
 
 .control_img img {
   vertical-align: top;
-  width: 94px;
-  height: 94px;
 }
 .control_info {
   width: 100%;
@@ -56,16 +54,16 @@
 
 .control_info_title {
   font-family: "Poppins";
-  font-size: 19.06px;
+  font-size: 19px;
   font-weight: 600;
-  line-height: 26.69px;
+  line-height: 27px;
 }
 
 .control_info_status {
   font-family: "Poppins";
-  font-size: 12.04px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 16.86px;
+  line-height: 17px;
 
   margin: 0 0 5px;
 }
@@ -78,11 +76,11 @@
 }
 
 .control_info_time {
-  text-align: right;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 11px;
   color: #acadb9;
+  text-align: right;
 }
 
 .control_left {
@@ -214,7 +212,7 @@
   font-size: 19px;
   font-weight: 800;
   line-height: 28px;
-  letter-spacing: 0.6282353401184082px;
+  letter-spacing: 0.63px;
   text-align: left;
   margin: 0 0 7px 0;
 }
@@ -224,7 +222,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.6282353401184082px;
+  letter-spacing: 0.63px;
   text-align: left;
 
   color: #a0aec0;
@@ -235,6 +233,115 @@
   font-size: 22px;
   font-weight: 800;
   line-height: 33px;
-  letter-spacing: 0.3141176700592041px;
+  letter-spacing: 0.31px;
   text-align: right;
+}
+
+@media (min-width: 320px) {
+  .control_container {
+    display: block;
+  }
+  .control_list {
+    grid-template-columns: 1fr;
+  }
+  .control_title {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    /* text-align: left; */
+  }
+
+  .control_info_title {
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+  }
+  .control_info_status {
+    font-family: "Poppins";
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 11px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .control_container {
+    display: flex;
+  }
+  .control_list {
+    grid-template-columns: 0.7fr;
+  }
+  .control_title {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+  }
+
+  .control_info_title {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+  .control_info_status {
+    font-family: "Poppins";
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+  }
+
+  .control_info_time {
+    font-family: "Poppins";
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: right;
+  }
+
+  .control_option_title {
+    font-family: "Manrope";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0.31px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .control_list {
+    display: grid;
+    grid-template-columns: 0.6fr;
+  }
+  .control_title {
+    font-family: "Poppins" sans-serif;
+    font-size: 50.92px;
+    font-weight: 700;
+    line-height: 58.2px;
+  }
+
+  .control_info_title {
+    font-family: "Poppins";
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  .control_info_status {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+  }
+  .control_info_time {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: #acadb9;
+    text-align: right;
+  }
 }

@@ -17,6 +17,8 @@
 }
 
 .footer_logo {
+  width: 150px;
+  height: 75px;
 }
 
 .footer_menu {
@@ -36,7 +38,7 @@
   text-align: left;
   transition: color 0.2s ease;
   color: #999999;
-  margin-right: 30px;
+  margin-right: 70px;
 
   transition: all 0.3s ease-in-out;
 }

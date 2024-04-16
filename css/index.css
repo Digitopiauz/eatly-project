@@ -61,19 +61,19 @@ body {
 
 @media (min-width: 375px) {
   [class*="_container"] {
-    padding: 0 15px;
+    width: 315px;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="_container"] {
-    /* padding: 0 15px; */
+    width: 886px;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="_container"] {
-    width: 1248px;
+    width: 1280px;
   }
 }
 

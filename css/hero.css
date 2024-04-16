@@ -1,5 +1,5 @@
 .hero {
-  padding: 180px 0 0 0;
+  padding: 180px 0 85px 0;
 }
 
 .hero_container {
@@ -10,6 +10,7 @@
 }
 
 .left {
+  flex: 1 1 49%;
 }
 
 .hero_left {
@@ -42,10 +43,18 @@
   font-family: "Poppins";
   font-size: 75px;
   font-weight: 600;
-  line-height: 90px;
+  line-height: 1.2;
   letter-spacing: -3px;
-  text-align: left;
-  padding: 18px 0 16px 0;
+
+  margin: 18px 0 16px 0;
+
+  /* font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 1.2;
+  letter-spacing: -3px;
+  color: #201f1f;
+  margin: 0 0 20px; */
 }
 
 .hero_title span {
@@ -53,14 +62,21 @@
 }
 
 .hero_text {
+  /* font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  /* text-align: justify; */
+
+  opacity: 0.7;
+  color: #676767;
   font-family: "Inter";
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  text-align: justified;
-  color: #676767;
-  opacity: 0.7;
-  padding: 0 0 53px 0;
+  text-align: justify;
+  /* margin: 0 0 50px; */
+  width: 499px;
 }
 
 .hero_text span {
@@ -71,33 +87,31 @@
   display: flex;
   align-items: center;
   gap: 18px;
-  padding: 0 0 33px 0;
+  /* margin: 0 0 35px 0; */
 }
 
 .hero_button {
   background: #5c4eae;
   font-family: "Poppins";
-  font-size: 16.27px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 24.41px;
-  letter-spacing: 0.01em;
-  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1%;
+
   color: #fff;
-  /* border: 1px solid transparent; */
-  border-radius: 12.41px;
-  padding: 18px 28px;
-  /* transition: all 0.3s ease; */
+  border-radius: 12px;
+  padding: 18px 31px;
 }
 
 .hero_button_pro {
-  border: 1.75px solid #5c4eae;
   background: #fff;
   color: #5c4eae;
+  border: 1.5px solid #6c5fbc;
 }
 
 .hero_raiting {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 18px;
 }
 
@@ -107,10 +121,112 @@
 }
 
 .hero_star {
-  margin-right: 5px;
+  margin: 7px 5px 0 0;
+  /* margin-right: 5px; */
+}
+.hero_stars span {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  opacity: 0.7;
+  margin: 0 0 0 2px;
 }
 
-@media (min-width: 375px) {
+.right {
+  position: relative;
+  max-width: 40%;
+  margin-right: 9.5%;
+}
+
+.hero_right {
+  position: relative;
+}
+
+.hero_right::before {
+  content: "";
+  position: absolute;
+  top: -3%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+
+  background-color: #6c5fbc;
+}
+
+.hero_right_img {
+  vertical-align: top;
+  max-width: 100%;
+  position: relative;
+}
+
+.hero_meal {
+  position: absolute;
+  bottom: 90%;
+  left: 40%;
+  width: 73%;
+}
+
+.hero_meal_item {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 16px 25px rgba(70, 70, 70, 0.05);
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.hero_meal_item_img {
+  max-width: 23%;
+  margin-right: 20px;
+}
+
+.hero_meal_text {
+  width: 100%;
+}
+
+.hero_meal_title {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #323142;
+}
+
+.hero_meal_sub_title {
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  color: #323142;
+}
+
+.hero_meal_time {
+  font-family: "Poppins";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #acadb9;
+  text-align: right;
+}
+
+.hero_graph {
+  position: absolute;
+  bottom: -15%;
+  left: 0;
+  max-width: 50%;
+}
+.hero_graph_img {
+  background-color: #ffffff;
+  box-shadow: 14.1205px 18.8273px 37.6546px rgba(26, 32, 44, 0.15);
+  border: 1px solid #edf2f7;
+  border-radius: 14px;
+  padding: 5px 0;
+}
+@media (min-width: 320px) {
   .hero_container {
     display: block;
     padding: 57px 0 0 0;
@@ -178,9 +294,6 @@
   }
 
   .hero_right {
-    display: flex;
-    justify-content: center;
-    padding: 47px 0 0 0;
   }
 
   .hero_food_img {
@@ -225,7 +338,7 @@
     font-weight: 400;
     line-height: 19.91px;
     text-align: left;
-    width: 354px;
+    /* width: 354px; */
   }
   .hero_btn {
     justify-content: flex-start;
@@ -298,8 +411,6 @@
     font-weight: 600;
     line-height: 90px;
     letter-spacing: -3px;
-    text-align: left;
-    padding: 18px 0 16px 0;
   }
 
   .hero_title span {
@@ -311,12 +422,11 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    text-align: justified;
+    text-align: justify;
 
     color: #676767;
     opacity: 0.7;
-    padding: 0 0 53px 0;
-    width: 499px;
+    padding: 0 0 50px 0;
   }
 
   .hero_text span {
@@ -340,7 +450,7 @@
     letter-spacing: 0.01em;
     color: #fff;
     border-radius: 12.41px;
-    padding: 18px 28px;
+    padding: 17px 30px;
   }
 
   .hero_button_pro {
@@ -366,12 +476,6 @@
   }
 
   .hero_star_icon {
-  }
-
-  .right {
-  }
-
-  .hero_right {
   }
 
   .hero_food_img {
