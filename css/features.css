@@ -1,88 +1,28 @@
 .features {
   background-color: #6c5fbc;
-  /* width: 1440px;
-  margin: 0 auto; */
-  position: relative;
 }
 
-.features::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -3%;
-  height: 220px;
-  width: 400px;
-
-  background-image: url("../img/features/Vector7.svg");
-  background-repeat: no-repeat;
-}
-.features::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 2.5%;
-  height: 220px;
-  width: 300px;
-
-  background-image: url("../img/features/Vector7.svg");
-  background-repeat: no-repeat;
-}
-
-.features_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 57px 0 40px 0;
-  /* position: relative; */
-}
-
-.features_container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -18%;
-  height: 220px;
-  width: 400px;
-
-  background-image: url("../img/features/Vector8.svg");
-  background-repeat: no-repeat;
-}
-.features_container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -8.7%;
-  height: 220px;
-  width: 300px;
-
-  background-image: url("../img/features/Vector6.svg");
-  background-repeat: no-repeat;
+.features_ctns {
 }
 
 .features_list {
-  height: 123px;
   display: flex;
-  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
   justify-content: center;
-}
-
-.features_item {
-  border-right: 1px solid #c5c5c5;
+  height: 123px;
 }
 
 .features_item:nth-child(1) {
   width: 345px;
-  padding: 0 60px 0 0;
 }
 
 .features_item:nth-child(2) {
   width: 341px;
-  padding: 0 10px 0 0;
 }
 
 .features_item:nth-child(3) {
   width: 275px;
-  padding: 0 0 0 45px;
   border: none;
 }
 
@@ -102,44 +42,95 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
-
   color: #cbd5e1;
   text-align: center;
 }
-
 @media (min-width: 320px) {
+  .features {
+  }
+
+  .features_ctns {
+    width: 263px;
+    padding: 99px 0 82px 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .features_list {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+
+  .features_item {
+    margin: 0 auto;
+    width: auto;
+  }
+  .features_item:nth-child(1) {
+    padding: 0 10px 124px 0;
+    width: auto;
+  }
+  .features_item:nth-child(2) {
+    padding: 0 10px 125px 0;
+    width: auto;
+  }
+  .features_item:nth-child(3) {
+    width: auto;
+    padding: 0 10px 0 0;
+  }
+  .features_number {
+    font-family: "Public Sans";
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .features_text {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1024px) {
+  .features_ctns {
+    padding: 36px 0 34px 0;
+    width: 669px;
+    margin: 0 auto;
+  }
   .features_list {
-    height: 87px;
+    display: flex;
+
+    gap: 94px;
   }
 
   .features_item {
   }
 
   .features_item:nth-child(1) {
-    width: 234px;
-    /* padding: 0 60px 0 0; */
+    width: 187px;
     padding: 0;
   }
 
   .features_item:nth-child(2) {
-    width: 239px;
-    /* padding: 0 10px 0 0; */
+    width: 147px;
     padding: 0;
   }
 
   .features_item:nth-child(3) {
-    width: 194px;
-    /* padding: 0 0 0 45px; */
+    width: 148px;
     padding: 0;
     border: none;
   }
   .features_number {
+    font-family: "Public Sans";
     font-size: 31px;
     font-weight: 700;
-    line-height: 1.25;
+    line-height: 1.2;
+
     text-align: center;
   }
 
@@ -150,50 +141,53 @@
     text-align: center;
   }
 }
-
 @media (min-width: 1440px) {
-  .features_list {
-    height: 123px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .features {
+    background-color: #6c5fbc;
   }
 
-  .features_item {
-    border-right: 1px solid #c5c5c5;
+  .features_ctns {
+    padding: 48px 0;
+    width: 942px;
+    margin: 0 auto;
+  }
+
+  .features_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .features_item:nth-child(1) {
     width: 345px;
-    padding: 0 60px 0 0;
+    padding: 0 10px 0 0;
   }
 
   .features_item:nth-child(2) {
     width: 341px;
-    padding: 0 10px 0 0;
   }
 
   .features_item:nth-child(3) {
     width: 275px;
-    padding: 0 0 0 45px;
+    padding: 0 0 0 10px;
     border: none;
   }
+
   .features_number {
     font-family: "Public Sans";
     font-size: 43px;
     font-weight: 700;
     line-height: 1.25;
     text-align: center;
-
     color: #fff;
     margin: 0 0 11px 0;
   }
+
   .features_text {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
-
     color: #cbd5e1;
     text-align: center;
   }

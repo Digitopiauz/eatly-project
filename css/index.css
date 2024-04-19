@@ -73,7 +73,7 @@ body {
 
 @media (min-width: 1440px) {
   [class*="_container"] {
-    width: 1280px;
+    width: 1248px;
   }
 }
 
