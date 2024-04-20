@@ -2,74 +2,98 @@
   padding: 100px 0 200px 0;
 }
 
-.download_container {
+.download_ctn {
+  padding: 0 0 120px 0;
+
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+  gap: 219px;
+  width: 100%;
+  margin: 0 55px;
+}
+
+.download_ctn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -1.5%;
+  background: #cbcbcb;
+  margin: 0 55px;
+  width: 1246px;
+  height: 1px;
 }
 
 .download_img {
   position: relative;
+  width: 371px;
 }
 
-.download_img::before {
+.download_img::after {
   position: absolute;
   content: "";
   background-image: url("../img/icon/Illustration 01.svg");
-  top: -2%;
-  left: 60%;
+  top: -3%;
+  right: 0;
   width: 52px;
   height: 62px;
   background-size: cover;
   z-index: 2;
 }
 
-.img {
-  width: 304px;
+.download_text {
+  width: 560px;
 }
 
 .download_title {
   font-family: "Poppins";
-  font-size: 50.92px;
+  font-size: 51px;
   font-weight: 700;
-  line-height: 58.2px;
-  text-align: left;
-  padding: 0 0 63px 0;
+  line-height: 1.14;
+  padding: 0 0 65px 0;
+  width: 519px;
 }
 
 .download_title span {
   color: #6c5fbc;
 }
 
+.download_list {
+  padding: 0 0 0 32px;
+}
+
 .download_item {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
-  list-style: initial;
-  padding: 0 0 27px 0;
+  width: 500px;
+  margin: 0 0 28px 0;
+
+  list-style: outside;
   color: #676767;
 }
 
 .download_btn {
-  padding: 36px 0 0 0;
   display: flex;
   align-items: center;
   position: relative;
+
+  padding: 39px 0 0 0;
 }
 
 .download_btn::before {
   position: absolute;
   content: "";
   background-image: url("../img/icon/vector.svg");
-  top: 100%;
-  right: 20%;
+  top: 88%;
+  left: 29%;
   background-repeat: no-repeat;
   background-size: auto;
   width: 200px;
-  height: 154.49px;
-
+  height: 154px;
   transform: rotate(1deg);
 }
 
@@ -77,15 +101,26 @@
   display: flex;
   align-items: center;
   gap: 14px;
-  padding: 20px 25px;
-  background-color: #6c5fbc;
+
   border-radius: 15px;
   color: #fff;
-}
-.download_icon {
+
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+
+  padding: 17px 25px;
+  background-color: #6c5fbc;
 }
 
-@media (min-width: 320px) {
+.download_icon {
+  width: 27.09px;
+  height: 27.09px;
+}
+
+/* @media (min-width: 320px) {
   .download_container {
     display: flex;
     flex-direction: column-reverse;
@@ -139,105 +174,266 @@
     width: 29px;
     height: 34.67px;
   }
-}
+} */
 
 @media (min-width: 1024px) {
-  .download_container {
+  .download {
+  }
+
+  .download_ctn {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    gap: 160px;
+    width: 100%;
+    margin: 0 55px;
+  }
+
+  .download_ctn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -1.5%;
+    background: #cbcbcb;
+    margin: 0 55px;
+    width: 1246px;
+    height: 1px;
+  }
+
+  .download_img {
+    position: relative;
+    width: 264px;
   }
 
   .img {
     width: 216px;
   }
 
+  .download_img::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/icon/Illustration 01.svg");
+    top: -3%;
+    right: -15%;
+    width: 37.31px;
+    height: 43.9px;
+
+    background-size: cover;
+    z-index: 2;
+  }
+
+  .download_text {
+    width: 430px;
+    text-align-last: left;
+  }
+
   .download_title {
+    text-align-last: left;
     font-family: "Poppins";
     font-size: 36px;
     font-weight: 700;
-    line-height: 41px;
+    line-height: 1.2;
     text-align: left;
+    width: 350px;
+    padding: 0 0 45px 0;
+  }
+
+  .download_title span {
+    color: #6c5fbc;
+  }
+
+  .download_list {
+    padding: 0;
+    margin: 0 0 0 21px;
+    text-align-last: left;
   }
 
   .download_item {
+    text-align-last: left;
     font-family: "Inter";
-    font-size: 14.46px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 21.69px;
+    line-height: 1.5;
     text-align: left;
+    width: 350px;
+    /* width: 500px;
+    margin: 0 0 28px 0; */
+    margin: 0 0 19.24px 0;
+
+    list-style: outside;
+    color: #676767;
   }
 
   .download_btn {
-    padding: 0;
-    justify-content: start;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align-last: left;
+    padding: 28px 0 0 0;
   }
 
   .download_btn::before {
-    top: 55%;
-    left: 25%;
+    position: absolute;
+    content: "";
+    background-image: url("../img/icon/vector.svg");
+    top: 88%;
+    left: 29%;
+    background-repeat: no-repeat;
+    background-size: auto;
     width: 180px;
     height: 65px;
     transform: rotate(1deg);
   }
 
   .download_button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align-last: left;
+    border-radius: 10.44px;
+    color: #fff;
+
     font-family: "Poppins";
-    font-size: 12.84px;
+    font-size: 12.8px;
     font-weight: 500;
-    line-height: 16.05px;
+    line-height: 1.3;
     text-align: center;
+
+    padding: 12px 18px;
+    background-color: #6c5fbc;
   }
 
   .download_icon {
-    width: 19px;
-    height: 19px;
+    width: 19.27px;
+    height: 19.27px;
   }
 }
 
 @media (min-width: 1440px) {
+  .download {
+    padding: 100px 0 200px 0;
+  }
+
+  .download_ctn {
+    padding: 0 0 120px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 219px;
+    width: 100%;
+    margin: 0 55px;
+  }
+
+  .download_ctn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -1.5%;
+    background: #cbcbcb;
+    margin: 0 55px;
+    width: 1246px;
+    height: 1px;
+  }
+
+  .download_img {
+    position: relative;
+    width: 371px;
+  }
+
   .img {
     width: 304px;
   }
+
+  .download_img::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/icon/Illustration 01.svg");
+    top: -3%;
+    right: 0;
+    width: 52px;
+    height: 62px;
+    background-size: cover;
+    z-index: 2;
+  }
+
+  .download_text {
+    width: 560px;
+  }
+
   .download_title {
     font-family: "Poppins";
-    font-size: 50.92px;
+    font-size: 51px;
     font-weight: 700;
-    line-height: 58.2px;
-    text-align: left;
-    padding: 0 0 63px 0;
+    line-height: 1.14;
+    padding: 0 0 65px 0;
     width: 519px;
   }
 
+  .download_title span {
+    color: #6c5fbc;
+  }
+
+  .download_list {
+    padding: 0 0 0 32px;
+    margin: 0;
+  }
+
   .download_item {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    list-style: initial;
-    padding: 0 0 27px 0;
+    width: 500px;
+    margin: 0 0 28px 0;
+
+    list-style: outside;
     color: #676767;
+  }
+
+  .download_btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    padding: 39px 0 0 0;
+  }
+
+  .download_btn::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/icon/vector.svg");
+    top: 88%;
+    left: 29%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 200px;
+    height: 154px;
+    transform: rotate(1deg);
   }
 
   .download_button {
     display: flex;
     align-items: center;
     gap: 14px;
-    padding: 20px 25px;
-    background-color: #6c5fbc;
+
     border-radius: 15px;
     color: #fff;
+
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
     text-align: center;
+
+    padding: 17px 25px;
+    background-color: #6c5fbc;
   }
 
   .download_icon {
-    width: 27px;
-    height: 27px;
   }
 }
