@@ -127,7 +127,7 @@
   .download_ctn {
     display: flex;
     flex-direction: column-reverse;
-    /* justify-content: ; */
+
     gap: 100px;
     margin: 0;
   }
@@ -227,6 +227,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row-reverse;
     position: relative;
     gap: 160px;
     width: 100%;
@@ -313,7 +314,9 @@
   .download_btn {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     position: relative;
+
     text-align-last: left;
     padding: 28px 0 0 0;
   }
@@ -367,6 +370,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row-reverse;
     position: relative;
     gap: 219px;
     width: 100%;
@@ -444,7 +448,7 @@
     display: flex;
     align-items: center;
     position: relative;
-
+    justify-content: flex-start;
     padding: 39px 0 0 0;
   }
 
