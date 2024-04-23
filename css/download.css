@@ -227,7 +227,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
     position: relative;
     gap: 160px;
     width: 100%;
@@ -370,7 +370,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
     position: relative;
     gap: 219px;
     width: 100%;

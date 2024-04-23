@@ -322,8 +322,23 @@
 
   .hero_raiting {
     display: flex;
-    gap: 18px;
+    gap: 16px;
     justify-content: center;
+  }
+
+  .hero_trustpilot {
+    display: flex;
+  }
+
+  .hero_trustpilot_img_star {
+    width: 23.59px;
+    height: 22.42px;
+  }
+
+  .hero_trustpilot_img {
+    margin: 4px 0 0 0;
+    width: 72.61px;
+    height: 15.61px;
   }
 
   .hero_stars {
@@ -334,6 +349,7 @@
   .hero_star {
     margin: 7px 5px 0 0;
   }
+
   .hero_stars span {
     font-family: "Plus Jakarta Sans";
     font-size: 12.81px;
@@ -343,6 +359,11 @@
 
     opacity: 0.7;
     margin: 0 0 0 2px;
+  }
+
+  .hero_star_icon {
+    width: 12.78px;
+    height: 12.78px;
   }
 
   .right {
@@ -469,12 +490,14 @@
   .hero_subtitle {
     position: relative;
     font-family: "Poppins";
-    font-size: 15px;
+    font-size: 10.67px;
     font-weight: 600;
-    line-height: 18px;
-    letter-spacing: 2px;
+    line-height: 12.8px;
+    letter-spacing: 1.42px;
+    text-align: left;
+
     color: #201f1f33;
-    padding: 0 0 0 74px;
+    padding: 0 0 0 54px;
   }
 
   .hero_subtitle::before {
@@ -483,7 +506,7 @@
     left: 0;
     top: 50%;
     transform: translatey(-50%);
-    width: 54px;
+    width: 38px;
     height: 0.71px;
     background: #201f1f33;
     opacity: 0.2px;
@@ -497,7 +520,7 @@
     letter-spacing: -2.13px;
     text-align: left;
     width: auto;
-    /* margin: 18px 0 16px 0; */
+    margin: 12px 0 11px 0;
   }
 
   .hero_title span {
@@ -510,8 +533,8 @@
     font-weight: 400;
     line-height: 19.91px;
     text-align: left;
-    width: 354px;
-    margin: 0 0 37px 0;
+    width: 364px;
+    margin: 0 0 38px 0;
     color: #676767;
   }
 
@@ -523,8 +546,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 18px;
-    margin: 0 0 24px 0;
+    gap: 12px;
+    margin: 0 0 20px 0;
   }
 
   .hero_button {
@@ -538,10 +561,12 @@
     background: #5c4eae;
     color: #fff;
     border-radius: 9px;
-    padding: 18px 31px;
+
+    padding: 12px 21px;
   }
 
   .hero_button_pro {
+    padding: 12px 20px;
     background: #fff;
     color: #5c4eae;
     border: 1.5px solid #6c5fbc;
@@ -550,24 +575,50 @@
   .hero_raiting {
     display: flex;
     justify-content: flex-start;
-    gap: 18px;
+    align-items: center;
+    gap: 14px;
   }
 
+  .hero_trustpilot {
+    display: flex;
+    /* align-items: center; */
+    gap: 3px;
+  }
+
+  .hero_trustpilot_img {
+    width: 64.49px;
+    height: 13.86px;
+    margin: 4px 0 0 0;
+  }
+
+  .hero_trustpilot_img_star {
+    width: 20.95px;
+    height: 19.91px;
+  }
   .hero_stars {
     display: flex;
     align-items: center;
+    gap: 7px;
   }
 
   .hero_star {
-    margin: 7px 5px 0 0;
+    margin: 7px 0 0 0;
   }
+
+  .hero_star_icon {
+    width: 10px;
+    height: 10.87px;
+  }
+
   .hero_stars span {
     font-family: "Plus Jakarta Sans";
-    font-size: 16px;
+    font-size: 11.38px;
     font-weight: 500;
-    line-height: 15px;
+    line-height: 17.07px;
+    text-align: left;
+
     opacity: 0.7;
-    margin: 0 0 0 2px;
+    margin: 7px 0 0 1px;
   }
 
   .right {
@@ -733,7 +784,7 @@
     font-weight: 400;
     line-height: 28px;
     text-align: justify;
-
+    margin: 0 0 50px 0;
     width: 499px;
   }
 
@@ -745,6 +796,7 @@
     display: flex;
     align-items: center;
     gap: 18px;
+    margin: 0 0 33px 0;
   }
 
   .hero_button {
@@ -757,10 +809,11 @@
 
     color: #fff;
     border-radius: 12px;
-    padding: 18px 31px;
+    padding: 18px 30px;
   }
 
   .hero_button_pro {
+    padding: 18px 28px;
     background: #fff;
     color: #5c4eae;
     border: 1.5px solid #6c5fbc;
@@ -772,6 +825,13 @@
     gap: 18px;
   }
 
+  .hero_trustpilot {
+  }
+
+  .hero_trustpilot_img {
+    width: auto;
+    height: auto;
+  }
   .hero_stars {
     display: flex;
     align-items: center;
@@ -787,6 +847,11 @@
     line-height: 15px;
     opacity: 0.7;
     margin: 0 0 0 2px;
+  }
+
+  .hero_star_icon {
+    width: 15.96px;
+    height: 15.96px;
   }
 
   .right {
