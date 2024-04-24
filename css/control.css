@@ -6,8 +6,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 141px;
-  /* width: 1280px;
-  margin: 0 auto; */
+  padding: 0 0 100px 0;
 }
 
 .control_right {
@@ -35,7 +34,6 @@
   border-radius: 12px;
   box-shadow: 0 12px 25px rgba(70, 70, 70, 0.05);
   background: #ffffff;
-  border: 1px solid #000;
 
   position: relative;
 
@@ -95,49 +93,186 @@
   border: 1px solid #edf2f7;
   border-radius: 25px;
   box-shadow: 0 20px 30px rgba(50, 49, 66, 0.2);
+  padding: 37px 37px 45px 37px;
 }
 
 .control_option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 37px 0;
 }
 
 .control_option_title {
+  font: 800 normal 28.27px / 1.35 "Manrope";
+  letter-spacing: 0.3141176700592041px;
+  text-align: left;
 }
 
 .control_option_select {
+  position: relative;
+  border-radius: 13px;
+  font: 600 normal 18.85px / 1.4 "Manrope";
+  appearance: none;
+  padding: 12px 50px 12px 18px;
+  background: #fafafa;
+}
+
+.control_option_select_vector {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.control_option_select_vector::after {
+  position: absolute;
+
+  right: 18px;
+  content: "";
+  width: 25.13px;
+  height: 25.13px;
+
+  background-image: url("../img/control/icon/chevron-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .control_option_option {
+  font: 600 normal 18.85px / 1.4 "Manrope";
+  letter-spacing: 0.63px;
+  color: #1a202c;
 }
 
 .control_left_list {
 }
 
 .control_left_item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px 55px;
+  margin: 0 0 22px 0;
+  border-radius: 18.85px;
+  border: 1.57px solid #edf2f7;
+}
+
+.control_left_item::before {
+  opacity: 0.2;
+  background-color: #6b5fbc;
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  height: 9.42px;
+  border-radius: 78px;
+}
+
+.control_left_item::after {
+  background-color: #6b5fbc;
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  height: 9.42px;
+  border-radius: 78px;
+  width: 70%;
 }
 
 .control_left_icon_text {
+  display: flex;
+  align-items: center;
 }
 
 .control_left_item_icon {
+  position: relative;
+  background: #f4f0ff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.control_left_item_icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/control/icon/wallet.svg");
 }
 
 .control_left_item_icon_money {
+  position: relative;
+}
+
+.control_left_item_icon_money::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/control/icon/money.svg");
 }
 
 .money_bg {
+  background: #f2fdf6;
 }
 
 .control_left_item_text {
+  margin-left: 31px;
 }
 
 .control_left_item_title {
+  font: 800 normal 18.85px / 1.4 "Manrope";
+  letter-spacing: 0.63px;
+  text-align: left;
+  color: #1a202c;
 }
 
 .control_left_text {
+  font: 500 normal 15.71px / 1.49 "Manrope";
+  letter-spacing: 0.6282353401184082px;
+  text-align: left;
+  color: #a0aec0;
 }
 
 .control_left_item_price {
+  font: 800 normal 21.99px / 1.49 "Manrope";
+  letter-spacing: 0.3141176700592041px;
+  text-align: right;
+  color: #1a202c;
 }
 
 .control_left_item_yellow {
+  position: relative;
+}
+
+.control_left_item_yellow::before {
+  background-color: #fbac18;
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  height: 9.42px;
+  border-radius: 78px;
+}
+
+.control_left_item_yellow::after {
+  background-color: #fbac18;
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  width: 60%;
+  height: 9.42px;
+  border-radius: 78px;
 }
