@@ -27,10 +27,8 @@
 }
 
 .features_number {
-  font-family: "Public Sans";
-  font-size: 43px;
-  font-weight: 700;
-  line-height: 1.25;
+  font: 700 normal 43px / 1.25 "Public Sans";
+
   text-align: center;
 
   color: #fff;
@@ -38,10 +36,8 @@
 }
 
 .features_text {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.5;
+  font: 500 normal 14px / 1.5 "Inter";
+
   color: #cbd5e1;
   text-align: center;
 }
@@ -79,18 +75,14 @@
     padding: 0 10px 0 0;
   }
   .features_number {
-    font-family: "Public Sans";
-    font-size: 43px;
-    font-weight: 700;
-    line-height: 1.2;
+    font: 700 normal 43px / 1.2 "Public Sans";
+
     text-align: center;
   }
 
   .features_text {
-    font-family: "Inter";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.5;
+    font: 500 normal 14px / 1.5 "Inter";
+
     text-align: center;
   }
 }
@@ -126,10 +118,7 @@
     border: none;
   }
   .features_number {
-    font-family: "Public Sans";
-    font-size: 31px;
-    font-weight: 700;
-    line-height: 1.2;
+    font: 700 normal 31px / 1.2 "Public Sans";
 
     text-align: center;
   }
@@ -174,20 +163,16 @@
   }
 
   .features_number {
-    font-family: "Public Sans";
-    font-size: 43px;
-    font-weight: 700;
-    line-height: 1.25;
+    font: 700 normal 43px / 1.25 "Public Sans";
+
     text-align: center;
     color: #fff;
     margin: 0 0 11px 0;
   }
 
   .features_text {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.5;
+    font: 500 normal 14px / 1.5 "Inter";
+
     color: #cbd5e1;
     text-align: center;
   }

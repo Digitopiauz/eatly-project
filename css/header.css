@@ -1,5 +1,4 @@
 .header {
-  font-family: "Inter";
   position: fixed;
   top: 0;
   left: 0;
@@ -67,9 +66,8 @@
   }
 
   .menu_item {
-    font-size: 12.68px;
-    font-weight: 500;
-    line-height: 19.02px;
+    font: 500 normal 12.68px / 1.5 "Inter";
+
     color: #606060;
   }
 
@@ -79,9 +77,8 @@
   }
 
   .menu_button {
-    font-size: 12.68px;
-    font-weight: 700;
-    line-height: 19.02px;
+    font: 700 normal 12.68px / 1.5 "Inter";
+
     padding: 12.68px 19.02px;
     border-radius: 12px;
     background-color: #6c5fbc;
@@ -89,10 +86,8 @@
   }
 
   .menu_login {
+    font: 700 normal 12.68px / 1.5 "Inter";
     color: #606060;
-    font-size: 12.68px;
-    font-weight: 700;
-    line-height: 19.02px;
   }
 
   .header_menu {
@@ -142,9 +137,8 @@
   }
 
   .menu_item {
-    font-size: 17.83px;
-    font-weight: 500;
-    line-height: 26.74px;
+    font: 500 normal 17.83px / 1.4 "Inter";
+
     color: #606060;
   }
 
@@ -155,9 +149,7 @@
   }
 
   .menu_login {
-    font-size: 17.83px;
-    font-weight: 700;
-    line-height: 26.74px;
+    font: 700 normal 17.83px / 1.4 "Inter";
   }
 
   .menu_button {
@@ -165,9 +157,7 @@
     padding: 17.83px 26.74px;
     background-color: #5c4eae;
     color: #f9f9f9;
-    font-size: 17.83px;
-    font-weight: 700;
-    line-height: 26.74px;
+    font: 700 normal 17.83px / 1.4 "Inter";
   }
 
   .burger {

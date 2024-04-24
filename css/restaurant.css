@@ -7,10 +7,8 @@
 }
 
 .restaurant_title {
-  font-family: "Poppins";
-  font-size: 45px;
-  font-weight: 600;
-  line-height: 25.56px;
+  font: 400 normal 45px / 1.7 "Poppins";
+
   text-align: center;
   margin: 0 0 85px 0;
 }
@@ -66,10 +64,8 @@
 }
 
 .restaurant_info_tag {
-  font-family: "Poppins";
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 19px;
+  font: 400 normal 13px / 1.4 "Poppins";
+
   text-align: left;
   border-radius: 5px;
   padding: 3px 5px;
@@ -86,10 +82,8 @@
 }
 
 .restaurant_name {
-  font-family: "Poppins";
-  font-size: 26px;
-  font-weight: 600;
-  line-height: 42px;
+  font: 600 normal 26px / 1.6 "Poppins";
+
   text-align: left;
 
   /* margin: 5px 0 0 0; */
@@ -103,10 +97,8 @@
   column-gap: 30px;
 }
 .restaurant_min {
-  font-family: "Manrope";
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 26px;
+  font: 400 normal 19px / 1.36 "Manrope";
+
   text-align: left;
   color: #8e97a6;
 }
@@ -139,10 +131,8 @@
   }
 
   .restaurant_title {
-    font-family: "Poppins";
-    font-size: 35px;
-    font-weight: 600;
-    line-height: 36px;
+    font: 600 normal 35px / 1.02 "Poppins";
+
     text-align: center;
 
     margin: 0 0 25px 0;
@@ -188,15 +178,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (min-width: 1024px) {
   .restaurant_container {
   }
 
   .restaurant_title {
-    font-family: "Poppins";
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 18px;
+    font: 600 normal 32px / 1.7 "Poppins";
 
     margin: 0 0 60px 0;
   }
@@ -219,18 +207,14 @@
   }
 
   .restaurant_info_tag {
-    font-family: "Poppins";
-    font-size: 9px;
-    font-weight: 400;
-    line-height: 14px;
+    font: 400 normal 9px / 1.5 "Poppins";
+
     text-align: left;
   }
 
   .restaurant_name {
-    font-family: "Poppins";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 30px;
+    font: 600 normal 18px / 1.6 "Poppins";
+
     text-align: left;
   }
 
@@ -238,10 +222,8 @@
   }
 
   .restaurant_min {
-    font-family: "Manrope";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
+    font: 400 normal 14px / 1.2 "Manrope";
+
     text-align: left;
   }
 
@@ -262,10 +244,8 @@
   }
 
   .restaurant_title {
-    font-family: "Poppins";
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 25.56px;
+    font: 600 normal 45px / 1.7 "Poppins";
+
     text-align: center;
     margin: 0 0 85px 0;
   }
@@ -321,10 +301,8 @@
   }
 
   .restaurant_info_tag {
-    font-family: "Poppins";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 19px;
+    font: 400 normal 13px / 1.46 "Poppins";
+
     text-align: left;
     border-radius: 5px;
     padding: 3px 5px;
@@ -341,10 +319,8 @@
   }
 
   .restaurant_name {
-    font-family: "Poppins";
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 1.5;
+    font: 600 normal 26px / 1.5 "Poppins";
+
     text-align: left;
 
     /* margin: 5px 0 0 0; */
@@ -358,10 +334,8 @@
     column-gap: 30px;
   }
   .restaurant_min {
-    font-family: "Manrope";
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 26px;
+    font: 400 normal 19px / 1.36 "Manrope";
+
     text-align: left;
     color: #8e97a6;
   }
