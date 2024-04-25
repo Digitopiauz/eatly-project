@@ -4,9 +4,10 @@
 .control_ctn {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 141px;
+  gap: 135px;
   padding: 0 0 100px 0;
+  width: 1280px;
+  margin: 0 auto;
 }
 
 .control_right {
@@ -24,6 +25,7 @@
 }
 
 .control_list {
+  margin: 0 0 0 -10px;
 }
 
 .control_item {
@@ -69,8 +71,6 @@
   position: absolute;
   right: 17px;
   color: #acadb9;
-
-  /* margin: 0 0 2px 0; */
 }
 
 .control_item {
@@ -93,19 +93,20 @@
   border: 1px solid #edf2f7;
   border-radius: 25px;
   box-shadow: 0 20px 30px rgba(50, 49, 66, 0.2);
-  padding: 37px 37px 45px 37px;
+  padding: 25px 37px 25px 37px;
 }
 
 .control_option {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 0 37px 0;
+  gap: 131px;
+
+  margin: 0 0 38px 0;
 }
 
 .control_option_title {
   font: 800 normal 28.27px / 1.35 "Manrope";
-  letter-spacing: 0.3141176700592041px;
+  letter-spacing: 0.31px;
   text-align: left;
 }
 
@@ -114,6 +115,7 @@
   border-radius: 13px;
   font: 600 normal 18.85px / 1.4 "Manrope";
   appearance: none;
+  letter-spacing: 0.63px;
   padding: 12px 50px 12px 18px;
   background: #fafafa;
 }
@@ -126,12 +128,10 @@
 
 .control_option_select_vector::after {
   position: absolute;
-
   right: 18px;
-  content: "";
   width: 25.13px;
   height: 25.13px;
-
+  content: "";
   background-image: url("../img/control/icon/chevron-down.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -175,11 +175,11 @@
   content: "";
   position: absolute;
   bottom: 25px;
-  left: 25px;
+  left: 22px;
   right: 25px;
   height: 9.42px;
   border-radius: 78px;
-  width: 70%;
+  width: 65%;
 }
 
 .control_left_icon_text {
@@ -226,7 +226,7 @@
 }
 
 .control_left_item_text {
-  margin-left: 31px;
+  margin: 0 0 0 21px;
 }
 
 .control_left_item_title {
@@ -234,18 +234,19 @@
   letter-spacing: 0.63px;
   text-align: left;
   color: #1a202c;
+  margin: 0 0 4px 0;
 }
 
 .control_left_text {
-  font: 500 normal 15.71px / 1.49 "Manrope";
-  letter-spacing: 0.6282353401184082px;
+  font: 500 normal 16px / 1.49 "Manrope";
+  letter-spacing: 0.63px;
   text-align: left;
   color: #a0aec0;
 }
 
 .control_left_item_price {
-  font: 800 normal 21.99px / 1.49 "Manrope";
-  letter-spacing: 0.3141176700592041px;
+  font: 800 normal 22px / 1.49 "Manrope";
+  letter-spacing: 1px;
   text-align: right;
   color: #1a202c;
 }
@@ -270,9 +271,9 @@
   content: "";
   position: absolute;
   bottom: 25px;
-  left: 25px;
+  left: 22px;
   right: 25px;
-  width: 60%;
+  width: 54%;
   height: 9.42px;
   border-radius: 78px;
 }
