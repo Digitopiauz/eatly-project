@@ -294,7 +294,7 @@
     font: 700 normal 30px / 1.08 "Poppins";
     width: 313px;
     text-align: left;
-    padding: 0 0 23px 0;
+    padding: 0 0 22px 2px;
   }
 
   .control_title span {
@@ -317,7 +317,7 @@
 
     position: relative;
     margin: 0 0 10px;
-    width: 245px;
+    width: 230px;
     padding: 5px 0px 1px 12px;
   }
 
@@ -392,6 +392,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 77px;
+    margin-bottom: 21px;
   }
 
   .control_option_title {
@@ -444,9 +445,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 14px 38px 17px;
+    padding: 14px 14px 32px 14px;
 
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
     border-radius: 13.4px;
     border: 1.12px solid #edf2f7;
   }
