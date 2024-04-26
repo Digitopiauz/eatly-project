@@ -87,7 +87,7 @@
   top: 88%;
   left: 29%;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   width: 200px;
   height: 154px;
   transform: rotate(1deg);
@@ -186,7 +186,7 @@
     top: 150%;
     left: -5%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     width: 180px;
     height: 60px;
     transform: rotate(100deg);
@@ -309,7 +309,7 @@
     top: 88%;
     left: 29%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     width: 180px;
     height: 65px;
     transform: rotate(1deg);
@@ -433,7 +433,7 @@
     top: 88%;
     left: 29%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     width: 200px;
     height: 154px;
     transform: rotate(1deg);

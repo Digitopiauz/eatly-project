@@ -294,7 +294,7 @@
     font: 700 normal 30px / 1.08 "Poppins";
     width: 313px;
     text-align: left;
-    padding: 0;
+    padding: 0 0 23px 0;
   }
 
   .control_title span {
@@ -338,10 +338,6 @@
 
   .control_info_title {
     font: 600 normal 12.59px / 1.4 "Poppins";
-    /* font-family: Poppins;
-    font-size: 12.59px;
-    font-weight: 600;
-    line-height: 17.63px; */
     text-align: left;
   }
 
@@ -373,7 +369,22 @@
     border: 1px solid #edf2f7;
     border-radius: 25px;
     box-shadow: 0 20px 30px rgba(50, 49, 66, 0.2);
-    margin: 0;
+    margin: 100px 0 0 0;
+
+    position: relative;
+  }
+
+  .control_left::before {
+    content: "";
+    position: absolute;
+    top: -30%;
+    right: -5%;
+    background-image: url("../img/icon/vector.svg");
+    background-size: contain;
+    transform: rotate(-90deg);
+    width: 100px;
+    height: 40px;
+    background-repeat: no-repeat;
   }
 
   .control_option {
@@ -397,7 +408,7 @@
     text-align: right;
     letter-spacing: 0.37px;
     background: #fafafa;
-    padding: 7.44px 11.16px 7.44px 11.16px;
+    padding: 8px 35px 8px 13px;
     border-radius: 7.44px;
   }
 
@@ -663,6 +674,10 @@
     border-radius: 25px;
     box-shadow: 0 20px 30px rgba(50, 49, 66, 0.2);
     margin: 0 0 10px 0;
+  }
+
+  .control_left::before {
+    background-image: none;
   }
 
   .control_option {
