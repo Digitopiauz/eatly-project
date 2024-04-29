@@ -81,8 +81,6 @@
   color: #fb471d;
 }
 
-
-
 .restaurant_name {
   font: 600 normal 26px / 1.6 "Poppins";
 
@@ -172,12 +170,6 @@
   }
 
   .restaurant_button_icon {
-  }
-}
-
-@media (min-width: 991px) {
-  .restaurant_list {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 

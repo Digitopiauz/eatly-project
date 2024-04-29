@@ -333,8 +333,7 @@
 }
 
 .food_item {
-  /* border: 1.44px solid #f4f4f6; */
-  border: 1.44px solid #000000;
+  border: 1.44px solid #f4f4f6;
   border-radius: 34.58px;
   box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
   padding: 28px 15px 28px 0;
@@ -343,16 +342,19 @@
 .food_img {
   text-align: center;
   padding: 0 0 11px 0;
+  width: 182px;
+  height: 182px;
 }
 
 .food_img_img {
-  /* max-width: 100%;
-  vertical-align: top; */
+  width: 182px;
+  height: 182px;
 }
 
 .food_text {
   padding: 0 0 0 14px;
 }
+
 .food_tag {
   font: 400 normal 11.42px / 1.5 "Poppins";
   text-align: left;
@@ -373,7 +375,6 @@
 .tag-green {
   color: #309d5b;
   background: #33ac64;
-  /* opacity: 0.2; */
 }
 
 .food_name {
@@ -392,17 +393,19 @@
 .food_min {
   font: 400 normal 17.29px / 1.33 "Manrope";
   text-align: left;
+  color: #8e97a6;
 }
 
 .food_rating {
   font: 400 normal 17.29px / 1.33 "Manrope";
   text-align: left;
+  color: #8e97a6;
 }
 
 .food_bottom {
   display: flex;
   align-items: center;
-  gap: 54px;
+  gap: 58px;
 }
 
 .food_cost {
@@ -435,6 +438,410 @@
   font: 500 normal 20px / 2.259 "Poppins";
 
   letter-spacing: -0.1px;
-
   color: #acadb9;
+}
+@media (min-width: 320px) {
+  .food {
+    padding: 85px 0 85px 0;
+  }
+
+  .food_ctn {
+    margin: 0 auto;
+    width: 315px;
+    border-bottom: 1px solid #cbcbcb;
+  }
+
+  .food_title {
+    font: 600 normal 30px / 1.2 "Poppins";
+    text-align: center;
+    padding: 0 0 61px 0;
+  }
+
+  .food_title span {
+    color: #6c5fbc;
+  }
+
+  .food_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 35px;
+    column-gap: 16px;
+
+    margin-bottom: 65px;
+  }
+
+  .food_item {
+    border: 1.44px solid #f4f4f6;
+    border-radius: 34.58px;
+    box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
+    padding: 20px 15px 20px 15px;
+  }
+
+  .food_img {
+    padding: 0 0 11px 0;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+  }
+
+  .food_img_img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .food_text {
+    padding: 5px 0 0 0;
+  }
+
+  .food_tag {
+    font: 400 normal 7.47px / 1.5 "Poppins";
+    text-align: left;
+    padding: 1px 5px;
+    border-radius: 3.16px;
+  }
+
+  .tag-yellow {
+    background: #f7edd0;
+    color: #daa31a;
+  }
+
+  .tag-red {
+    background: #f7c5ba;
+    color: #fb471d;
+  }
+
+  .tag-green {
+    color: #309d5b;
+    background: #33ac64;
+  }
+
+  .food_name {
+    font: 600 normal 15.08px / 1.62 "Poppins";
+    text-align: left;
+  }
+
+  .food_button {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    padding: 0 0 9px 0;
+  }
+
+  .food_min {
+    font: 400 normal 11.31px / 1.33 "Manrope";
+    text-align: left;
+    color: #8e97a6;
+  }
+
+  .food_rating {
+    font: 400 normal 11.31px / 1.33 "Manrope";
+    text-align: left;
+    color: #8e97a6;
+  }
+
+  .food_bottom {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    /* padding: ; */
+  }
+
+  .food_cost {
+    font: 700 normal 16.96px / 1.5 "Manrope";
+    text-align: left;
+  }
+
+  .food_cost span {
+    font: 700 normal 12.3px / 2.14 "Manrope";
+    color: #8e97a6;
+    text-align: left;
+  }
+
+  .food_botton {
+    background: #323142;
+
+    border-radius: 5.84px;
+    padding: 6px 9px 4px 9px;
+  }
+
+  .food_botton_img {
+    width: 9.93px;
+    height: 9.93px;
+  }
+
+  .food_result {
+    text-align: right;
+    padding: 0 0 66px 0;
+  }
+
+  .food_result_link {
+    font: 500 normal 20px / 2.259 "Poppins";
+    letter-spacing: -0.1px;
+    color: #acadb9;
+  }
+}
+
+@media (min-width: 1024px) {
+  .food {
+  }
+
+  .food_ctn {
+    width: 886px;
+    margin: 0 auto;
+    border-bottom: 0.71px solid #cbcbcb;
+  }
+
+  .food_title {
+    font: 600 normal 32px / 1.7 "Poppins";
+    text-align: center;
+    padding: 0 10px 30px 0;
+  }
+
+  .food_title span {
+    color: #6c5fbc;
+  }
+
+  .food_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 21px;
+  }
+
+  .food_item {
+    border: 1.44px solid #f4f4f6;
+    border-radius: 34.58px;
+    box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
+    padding: 25px 19px 22px 10px;
+  }
+
+  .food_img {
+    text-align: center;
+    padding: 0;
+    width: 129px;
+    height: 129px;
+  }
+
+  .food_img_img {
+    width: 129px;
+    height: 129px;
+  }
+
+  .food_text {
+    padding: 8px 0 0 0;
+  }
+
+  .food_tag {
+    width: 100%;
+    font: 400 normal 8.12px / 1.5 "Poppins";
+
+    text-align: left;
+    padding: 2px 7px;
+    border-radius: 4.83px;
+  }
+
+  .tag-yellow {
+    background: #f7edd0;
+    color: #daa31a;
+  }
+
+  .tag-red {
+    background: #f7c5ba;
+    color: #fb471d;
+  }
+
+  .tag-green {
+    color: #309d5b;
+    background: #33ac64;
+  }
+
+  .food_name {
+    font: 600 normal 16.39px / 1.62 "Poppins";
+    text-align: left;
+    color: #323142;
+  }
+
+  .food_button {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    padding: 0;
+  }
+
+  .food_min {
+    font: 400 normal 12.3px / 1.33 "Manrope";
+    text-align: left;
+    color: #8e97a6;
+  }
+
+  .food_rating {
+    font: 400 normal 12.3px / 2.14 "Manrope";
+    text-align: left;
+    color: #8e97a6;
+  }
+
+  .food_bottom {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .food_cost {
+    font: 700 normal 18.44px / 1.5 "Manrope";
+
+    text-align: left;
+  }
+
+  .food_cost span {
+    font: 700 normal 13.37px / 2.14 "Manrope";
+    color: #8e97a6;
+    text-align: left;
+  }
+
+  .food_botton {
+    background: #323142;
+    border-radius: 6.35px;
+    padding: 8px 10px 5px 10px;
+  }
+
+  .food_botton_img {
+    width: 10.8px;
+    height: 10.8px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .food {
+    padding: 100px 0 100px 0;
+  }
+
+  .food_ctn {
+    margin: 0 auto;
+    width: 1247px;
+
+    border-bottom: 1px solid #cbcbcb;
+  }
+
+  .food_title {
+    font: 600 normal 45px / 1.5 "Poppins";
+    padding: 0 12px 58px 0;
+    text-align: center;
+  }
+
+  .food_title span {
+    color: #6c5fbc;
+  }
+
+  .food_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin-bottom: 65px;
+  }
+
+  .food_item {
+    border: 1.44px solid #f4f4f6;
+    border-radius: 34.58px;
+    box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
+    padding: 28px 15px 28px 0;
+  }
+
+  .food_img {
+    text-align: center;
+    padding: 0 0 11px 10px;
+    width: 182px;
+    height: 182px;
+  }
+
+  .food_img_img {
+    width: 182px;
+    height: 182px;
+  }
+
+  .food_text {
+    padding: 12px 0 0 14px;
+  }
+  .food_tag {
+    font: 400 normal 11.42px / 1.5 "Poppins";
+    text-align: left;
+    padding: 2px 7px;
+    border-radius: 4.83px;
+  }
+
+  .tag-yellow {
+    background: #f7edd0;
+    color: #daa31a;
+  }
+
+  .tag-red {
+    background: #f7c5ba;
+    color: #fb471d;
+  }
+
+  .tag-green {
+    color: #309d5b;
+    background: #33ac64;
+  }
+
+  .food_name {
+    font: 600 normal 23.05px / 1.62 "Poppins";
+    text-align: left;
+    color: #323142;
+  }
+
+  .food_button {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    padding: 0 0 12px 0;
+  }
+
+  .food_min {
+    font: 400 normal 17.29px / 1.33 "Manrope";
+    text-align: left;
+  }
+
+  .food_rating {
+    font: 400 normal 17.29px / 1.33 "Manrope";
+    text-align: left;
+  }
+
+  .food_bottom {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+  }
+
+  .food_cost {
+    font: 700 normal 25.94px / 1.5 "Manrope";
+    text-align: left;
+  }
+
+  .food_cost span {
+    font: 700 normal 18.81px / 2.14 "Manrope";
+    color: #8e97a6;
+    text-align: left;
+  }
+
+  .food_botton {
+    background: #323142;
+    border-radius: 8.93px;
+    padding: 12px 13px;
+  }
+
+  .food_botton_img {
+    width: 15.18px;
+    height: 15.18px;
+  }
+
+  .food_result {
+    text-align: right;
+    padding: 0 0 120px 0;
+  }
+
+  .food_result_link {
+    font: 500 normal 20px / 2.259 "Poppins";
+
+    letter-spacing: -0.1px;
+    color: #acadb9;
+  }
 }
