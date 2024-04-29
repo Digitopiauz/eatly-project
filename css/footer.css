@@ -253,6 +253,7 @@
 
   .footer_item_link {
     font: 500 normal 12.68px / 1.5 "Inter";
+    text-transform: none;
     text-align: left;
     transition: all 0.3s ease-in-out;
     color: #999999;

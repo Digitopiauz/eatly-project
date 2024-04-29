@@ -90,11 +90,13 @@
   font-weight: 800;
   src: url("./Poppins/Poppins-ExtraBold.ttf");
 }
-@font-face {
+
+/* @font-face {
   font-family: "Poppins";
   font-weight: 400;
   src: url("./Poppins/Poppins-Italic.ttf");
-}
+} */
+
 @font-face {
   font-family: "Poppins";
   font-weight: 700;
