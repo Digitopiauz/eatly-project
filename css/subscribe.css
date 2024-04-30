@@ -1,5 +1,5 @@
 .subscribe {
-  padding: 0 0 100px 0;
+  padding: 0 0 216px 0;
 }
 
 .subscribe_ctn {
@@ -69,9 +69,85 @@
   padding: 15px 25px;
 }
 
+@media (min-width: 320px) {
+  .subscribe {
+    padding: 0 0 198px 0;
+  }
+
+  .subscribe_ctn {
+    width: 315px;
+    margin: 0 auto;
+    background-image: url("../img/sale-bg.jpg");
+    background-size: contain;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .subscribe_ctn::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/subscribe/Food Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 72%;
+    right: 23%;
+    width: 169.45px;
+    height: 170.66px;
+  }
+
+  .subscribe_form_ctn {
+    padding: 35px 0 95px 0;
+  }
+
+  .subscribe_title {
+    font: 800 normal 41.45px / 1.5 "Poppins";
+    margin: 0 0 15px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .subscribe_form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+
+  .subscribe_input {
+    font: 400 normal 10.58px / 1.5 "Poppins";
+    width: 260.29px;
+    height: 48.08px;
+    background: #ffffff;
+    box-shadow: 0 7px 45px rgba(0, 0, 0, 0.1);
+    border-radius: 9.26px;
+    color: #878787;
+    padding-left: 10px;
+
+    letter-spacing: 3%;
+    text-align: left;
+  }
+
+  .subscribe_btn {
+    position: absolute;
+    top: 15%;
+    right: 12%;
+  }
+
+  .subscribe_button {
+    font: 500 normal 9.59px / 1.5 "Poppins";
+
+    letter-spacing: 3%;
+    border-radius: 7.32px;
+    color: #ffffff;
+    background-color: #6c5fbc;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px 16px 10px 16px;
+  }
+}
+
 @media (min-width: 1024px) {
   .subscribe {
-    padding: 0 0 50px 0;
+    padding: 0 0 110px 0;
   }
   .subscribe_ctn {
     width: 863px;
@@ -144,7 +220,7 @@
 
 @media (min-width: 1440px) {
   .subscribe {
-    padding: 0 0 100px 0;
+    padding: 0 0 216px 0;
   }
 
   .subscribe_ctn {
