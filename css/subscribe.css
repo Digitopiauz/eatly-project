@@ -40,21 +40,14 @@
 }
 
 .subscribe_input {
-  /* border-radius: 14.23px;
-  padding: 22px 200px 22px 21px;
-  width: 480px; */
-
   width: 440px;
   height: 68px;
   background: #ffffff;
   box-shadow: 0 7px 45px rgba(0, 0, 0, 0.1);
   border-radius: 14px;
-
   color: #878787;
   padding-left: 22px;
-
   font: 400 normal 16.27px / 1.5 "Poppins";
-
   letter-spacing: 3%;
   text-align: left;
 }
@@ -75,5 +68,149 @@
   text-transform: uppercase;
   padding: 15px 25px;
 }
-.subscribe_img {
+
+@media (min-width: 1024px) {
+  .subscribe {
+    padding: 0 0 50px 0;
+  }
+  .subscribe_ctn {
+    width: 863px;
+    margin: 0 auto;
+    background-image: url("../img/sale-bg.jpg");
+    background-size: contain;
+    border-radius: 21px;
+    position: relative;
+  }
+
+  .subscribe_ctn::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/subscribe/Food Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 22%;
+    right: 6%;
+    width: 194.89px;
+    height: 196.28px;
+  }
+
+  .subscribe_form_ctn {
+    padding: 26px 0 43px 46px;
+  }
+
+  .subscribe_title {
+    font: 800 normal 49.78px / 1.5 "Poppins";
+    margin: 0 0 6px 0;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .subscribe_form {
+    display: inline-block;
+    position: relative;
+  }
+
+  .subscribe_input {
+    width: 313px;
+    height: 48px;
+    background: #ffffff;
+    box-shadow: 0 7px 45px rgba(0, 0, 0, 0.1);
+    border-radius: 10.12px;
+    color: #878787;
+    padding-left: 18px;
+    font: 400 normal 11.57px / 1.5 "Poppins";
+
+    letter-spacing: 3%;
+    text-align: left;
+  }
+
+  .subscribe_btn {
+    position: absolute;
+    top: 11%;
+    right: 1.8%;
+  }
+
+  .subscribe_button {
+    font: 500 normal 10.49px / 1.5 "Poppins";
+    letter-spacing: 3%;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #6c5fbc;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px 20px 11px 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .subscribe {
+    padding: 0 0 100px 0;
+  }
+
+  .subscribe_ctn {
+    width: 1214px;
+    margin: 0 auto;
+    background-image: url("../img/sale-bg.jpg");
+    background-size: contain;
+    border-radius: 30px;
+    position: relative;
+  }
+
+  .subscribe_ctn::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/subscribe/Food Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 22%;
+    right: 6%;
+    width: 274.06px;
+    height: 276.01px;
+  }
+
+  .subscribe_form_ctn {
+    padding: 37px 0 61px 66px;
+  }
+
+  .subscribe_title {
+    font: 800 normal 70px / 1.5 "Poppins";
+    margin: 0 0 8px 0;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .subscribe_form {
+    display: inline-block;
+    position: relative;
+  }
+
+  .subscribe_input {
+    width: 440px;
+    height: 68px;
+    background: #ffffff;
+    box-shadow: 0 7px 45px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    color: #878787;
+    padding-left: 22px;
+    font: 400 normal 16.27px / 1.5 "Poppins";
+    letter-spacing: 3%;
+    text-align: left;
+  }
+
+  .subscribe_btn {
+    position: absolute;
+    top: 10%;
+    right: 1.8%;
+  }
+
+  .subscribe_button {
+    font: 500 normal 14.75px / 1.5 "Poppins";
+    letter-spacing: 3%;
+    border-radius: 11.25px;
+    color: #ffffff;
+    background-color: #6c5fbc;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 15px 25px;
+  }
 }
