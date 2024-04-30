@@ -1,4 +1,3 @@
-/* ---------- ----------HTML Setting---------- ---------- */
 @import url(/fonts/font.css);
 
 @import url(./header.css);
@@ -8,8 +7,10 @@
 @import url(./restaurant.css);
 @import url(./food.css);
 @import url(./control.css);
+@import url(./subscribe.css);
 @import url(./footer.css);
 
+/* ---------- ----------HTML Setting---------- ---------- */
 *,
 *::before,
 *::after {
