@@ -29,6 +29,7 @@
   }
   .header_menu {
     display: none;
+    background-color: #fff;
   }
 
   .menu_login_box {

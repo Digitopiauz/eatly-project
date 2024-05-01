@@ -9,6 +9,7 @@
 @import url(./control.css);
 @import url(./subscribe.css);
 @import url(./footer.css);
+@import url(./modal.css);
 
 /* ---------- ----------HTML Setting---------- ---------- */
 *,
@@ -89,6 +90,7 @@ body {
 .pointer {
   cursor: pointer;
 }
+
 .btn:hover {
   color: #6c5fbc;
   border: 1px solid #6c5fbc;
