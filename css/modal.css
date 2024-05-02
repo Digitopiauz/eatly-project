@@ -1,5 +1,5 @@
 .modal {
-  padding: 100px 0 100px 0;
+  padding: 0 0 0 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,7 +22,7 @@
   gap: 196px;
   max-width: 1450px;
   padding: 5px;
-  margin: 25px auto;
+  margin: 0 auto;
   transform: translateY(-100%);
   transition: all 0.3s ease-in-out;
 }
