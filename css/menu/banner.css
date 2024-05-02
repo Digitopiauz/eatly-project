@@ -1,0 +1,26 @@
+.banner_container {
+  padding: 216px 0 0 0;
+  display: flex;
+  gap: 55px;
+  align-items: center;
+}
+
+.banner_ctn {
+  background-color: #6c5fbc;
+  border-radius: 18.69px;
+}
+
+.banner_title_ctn {
+}
+
+.banner_title {
+  font: 800 normal 75px / 1.5 "Poppins";
+  text-align: left;
+  color: #fff;
+}
+
+.banner_subtitle {
+  font: 800 normal 87.42px / 1.5 "Poppins";
+  color: #7c6fcd;
+  text-align: left;
+}
