@@ -2,7 +2,7 @@
 
 @import url(./index/header.css);
 @import url(./index/hero.css);
-@import url(./features.css);
+@import url(./index/features.css);
 @import url(./index/download.css);
 @import url(./index/restaurant.css);
 @import url(./index/food.css);
@@ -13,6 +13,7 @@
 @import url(./index/modal.css);
 
 @import url(./menu/banner.css);
+@import url(./menu/faq.css);
 
 /* ---------- ----------HTML Setting---------- ---------- */
 *,

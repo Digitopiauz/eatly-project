@@ -55,22 +55,372 @@
         <section class="banner">
           <div class="banner_container">
             <div class="banner_main_ctn">
-              <div class="banner_ctn">
-                <div class="banner_title_ctn">
-                  <h2 class="banner_title">50% OFF</h2>
-                  <p class="banner_subtitle">WEEKEND</p>
-                </div>
+              <div class="banner_title_ctn">
+                <h2 class="banner_title">50% OFF</h2>
+                <p class="banner_subtitle">WEEKEND</p>
               </div>
 
-              <div class="banner_search"></div>
+              <div class="banner_search">
+                <div class="banner_search_inp">
+                  <input
+                    type="text"
+                    class="banner_search_input"
+                    placeholder="Search"
+                  />
+                </div>
+
+                <div class="banner_button_btn">
+                  <button class="banner_button banner_button_food">Food</button>
+                  <button class="banner_button banner_button_resturent">
+                    Resturent
+                  </button>
+                </div>
+              </div>
             </div>
 
             <div class="banner_filter">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-              quam esse quae suscipit consequuntur eaque alias iusto consectetur
-              culpa soluta necessitatibus quibusdam dolorem, ratione ex cumque
-              cum, dolore sit error.
+              <h2 class="banner_filter_title">Category</h2>
+              <div class="banner_food_category">
+                <div class="banner_food_card">
+                  <div class="banner_food_img">
+                    <img src="/img/menu/icon/Pizza.svg" alt="" />
+                  </div>
+                  <p class="banner_food_subtext">Pizza</p>
+                </div>
+                <div class="banner_food_card">
+                  <div class="banner_food_img">
+                    <img src="/img/menu/icon/Pizza.svg" alt="" />
+                  </div>
+                  <p class="banner_food_subtext">Pizza</p>
+                </div>
+                <div class="banner_food_card">
+                  <div class="banner_food_img">
+                    <img src="/img/menu/icon/Pizza.svg" alt="" />
+                  </div>
+                  <p class="banner_food_subtext">Pizza</p>
+                </div>
+                <div class="banner_food_card">
+                  <div class="banner_food_img">
+                    <img src="/img/menu/icon/Pizza.svg" alt="" />
+                  </div>
+                  <p class="banner_food_subtext">Pizza</p>
+                </div>
+              </div>
+
+              <div class="banner_filter_sort">
+                <h3 class="banner_filter_title banner_filter_sort_title">
+                  Sort By
+                </h3>
+
+                <div class="banner_filter_sort_text">
+                  <div class="banner_filter__text">
+                    <p class="banner_filter_text">Recomended</p>
+                    <p class="banner_filter_text banner_filter_text_delevery">
+                      Fast Delivery
+                    </p>
+                  </div>
+                  <p class="banner_filter_text">Most Popular</p>
+                </div>
+
+                <div class="banner_filter_price">
+                  <h4 class="banner_filter_title banner_filter_price_title">
+                    Price
+                  </h4>
+                  <div class="banner_filter_price_inp">
+                    <input type="range" class="banner_filter_price_input" />
+
+                    <div class="banner_filter_price_number">
+                      <span class="banner_filter_price_num">$0</span>
+                      <span class="banner_filter_price_num">$25</span>
+                      <span class="banner_filter_price_num">$50</span>
+                      <span class="banner_filter_price_num">$100</span>
+                      <span class="banner_filter_price_num">$500</span>
+                      <span class="banner_filter_price_num">$1000</span>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="banner_filter_button">Apply</button>
+              </div>
             </div>
+          </div>
+        </section>
+
+        <section class="faq">
+          <div class="faq_container"></div>
+        </section>
+
+        <section class="restaurant">
+          <div class="restaurant_container _container">
+            <div class="menu_title_ctns">
+              <h2 class="restaurant_title menu_title_left">
+                Our Top <span>Restaurants</span>
+              </h2>
+
+              <div class="food_result">
+                <a href="#" class="food_result_link">View All</a>
+              </div>
+            </div>
+
+            <ul class="restaurant_list">
+              <li class="restaurant_item">
+                <div class="restaurant_img">
+                  <img
+                    class="restaurant_img_img"
+                    src="./img/restartnt/01.jpg"
+                    alt="The Chicken King"
+                  />
+                </div>
+
+                <div class="restaurant_info">
+                  <span class="restaurant_info_tag tag-yellow">Healthy</span>
+
+                  <h3 class="restaurant_name">The Chicken King</h3>
+
+                  <div class="restaurant_button">
+                    <div class="restaurant_min">24min •</div>
+
+                    <div class="restaurant_rating restaurant_min">4.8</div>
+
+                    <button class="restaurant_button_icon">
+                      <img src="./img/restartnt/bookmark.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="restaurant_item">
+                <div class="restaurant_img">
+                  <img
+                    class="restaurant_img_img"
+                    src="./img/restartnt/01.jpg"
+                    alt="The Chicken King"
+                  />
+                </div>
+
+                <div class="restaurant_info">
+                  <span class="restaurant_info_tag tag-red">Trending</span>
+
+                  <h3 class="restaurant_name">The Burger King</h3>
+
+                  <div class="restaurant_button">
+                    <div class="restaurant_min">24min •</div>
+
+                    <div class="restaurant_rating restaurant_min">4.8</div>
+
+                    <button class="restaurant_button_icon">
+                      <img src="./img/restartnt/bookmark.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="restaurant_item">
+                <div class="restaurant_img">
+                  <img
+                    class="restaurant_img_img"
+                    src="./img/restartnt/01.jpg"
+                    alt="The Chicken King"
+                  />
+                </div>
+
+                <div class="restaurant_info">
+                  <span class="restaurant_info_tag tag-yellow">Healthy</span>
+
+                  <h3 class="restaurant_name">The Chicken King</h3>
+
+                  <div class="restaurant_button">
+                    <div class="restaurant_min">24min •</div>
+
+                    <div class="restaurant_rating restaurant_min">4.8</div>
+
+                    <button class="restaurant_button_icon">
+                      <img src="./img/restartnt/bookmark.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="food">
+          <div class="food_ctn">
+            <div class="menu_title_ctns">
+              <h2 class="food_title menu_title_left">
+                Our Top <span>Dishes</span>
+              </h2>
+              <div class="food_result">
+                <a href="#" class="food_result_link">View All</a>
+              </div>
+            </div>
+
+            <ul class="food_list">
+              <li class="food_item">
+                <div class="food_img">
+                  <img
+                    class="food_img_img"
+                    src="./img/food/FoodImage.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="food_text">
+                  <span class="food_tag tag-yellow"> Healthy</span>
+                  <h3 class="food_name">Chicken Hell</h3>
+
+                  <div class="food_button">
+                    <div class="food_min">24min •</div>
+
+                    <div class="food_rating">4.8</div>
+                  </div>
+
+                  <div class="food_bottom">
+                    <div class="food_cost">$12<span>.99</span></div>
+
+                    <button class="food_botton">
+                      <img
+                        class="food_botton_img"
+                        src="./img/food/+.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="food_item">
+                <div class="food_img">
+                  <img
+                    class="food_img_img"
+                    src="./img/food/FoodImage.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="food_text">
+                  <span class="food_tag tag-red"> Trending</span>
+                  <h3 class="food_name">Swe Dish</h3>
+
+                  <div class="food_button">
+                    <div class="food_min">34min •</div>
+
+                    <div class="food_rating">4.9</div>
+                  </div>
+
+                  <div class="food_bottom">
+                    <div class="food_cost">$19<span>.99</span></div>
+
+                    <button class="food_botton">
+                      <img
+                        class="food_botton_img"
+                        src="./img/food/+.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="food_item">
+                <div class="food_img">
+                  <img
+                    class="food_img_img"
+                    src="./img/food/FoodImage.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="food_text">
+                  <span class="food_tag tag-green"> Supreme</span>
+                  <h3 class="food_name">Swe Dish</h3>
+
+                  <div class="food_button">
+                    <div class="food_min">24min •</div>
+
+                    <div class="food_rating">4.8</div>
+                  </div>
+
+                  <div class="food_bottom">
+                    <div class="food_cost">$19<span>.99</span></div>
+
+                    <button class="food_botton">
+                      <img
+                        class="food_botton_img"
+                        src="./img/food/+.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="food_item">
+                <div class="food_img">
+                  <img
+                    class="food_img_img"
+                    src="./img/food/FoodImage.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="food_text">
+                  <span class="food_tag tag-yellow"> Healthy</span>
+                  <h3 class="food_name">Chicken Hell</h3>
+
+                  <div class="food_button">
+                    <div class="food_min">24min •</div>
+
+                    <div class="food_rating">4.8</div>
+                  </div>
+
+                  <div class="food_bottom">
+                    <div class="food_cost">$12<span>.99</span></div>
+
+                    <button class="food_botton">
+                      <img
+                        class="food_botton_img"
+                        src="./img/food/+.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="food_item">
+                <div class="food_img">
+                  <img
+                    class="food_img_img"
+                    src="./img/food/FoodImage.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="food_text">
+                  <span class="food_tag tag-red"> Trending</span>
+                  <h3 class="food_name">Swe Dish</h3>
+
+                  <div class="food_button">
+                    <div class="food_min">24min •</div>
+
+                    <div class="food_rating">4.8</div>
+                  </div>
+
+                  <div class="food_bottom">
+                    <div class="food_cost">$19 <span>.99</span></div>
+
+                    <button class="food_botton">
+                      <img
+                        class="food_botton_img"
+                        src="./img/food/+.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </section>
       </main>

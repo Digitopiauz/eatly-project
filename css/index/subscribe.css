@@ -5,7 +5,7 @@
 .subscribe_ctn {
   width: 1214px;
   margin: 0 auto;
-  background-image: url("../img/sale-bg.jpg");
+  background-image: url("/img/subscribe/sale-bg.jpg");
   background-size: contain;
   border-radius: 30px;
   position: relative;
@@ -14,7 +14,7 @@
 .subscribe_ctn::after {
   content: "";
   position: absolute;
-  background-image: url("../img/subscribe/Food Image.png");
+  background-image: url("/img/subscribe/Food Image.png");
   background-size: contain;
   background-repeat: no-repeat;
   top: 22%;
@@ -77,7 +77,7 @@
   .subscribe_ctn {
     width: 315px;
     margin: 0 auto;
-    background-image: url("../img/sale-bg.jpg");
+    background-image: url("/img/subscribe/sale-bg.jpg");
     background-size: contain;
     border-radius: 15px;
     position: relative;
@@ -86,7 +86,7 @@
   .subscribe_ctn::after {
     content: "";
     position: absolute;
-    background-image: url("../img/subscribe/Food Image.png");
+    background-image: url("/img/subscribe/Food Image.png");
     background-size: contain;
     background-repeat: no-repeat;
     top: 72%;
@@ -152,7 +152,7 @@
   .subscribe_ctn {
     width: 863px;
     margin: 0 auto;
-    background-image: url("../img/sale-bg.jpg");
+    background-image: url("/img/subscribe/sale-bg.jpg");
     background-size: contain;
     border-radius: 21px;
     position: relative;
@@ -161,7 +161,7 @@
   .subscribe_ctn::after {
     content: "";
     position: absolute;
-    background-image: url("../img/subscribe/Food Image.png");
+    background-image: url("/img/subscribe/Food Image.png");
     background-size: contain;
     background-repeat: no-repeat;
     top: 22%;
@@ -226,7 +226,7 @@
   .subscribe_ctn {
     width: 1214px;
     margin: 0 auto;
-    background-image: url("../img/sale-bg.jpg");
+    background-image: url("/img/subscribe/sale-bg.jpg");
     background-size: contain;
     border-radius: 30px;
     position: relative;
@@ -235,7 +235,7 @@
   .subscribe_ctn::after {
     content: "";
     position: absolute;
-    background-image: url("../img/subscribe/Food Image.png");
+    background-image: url("/img/subscribe/Food Image.png");
     background-size: contain;
     background-repeat: no-repeat;
     top: 22%;
