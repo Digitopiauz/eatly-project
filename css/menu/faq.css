@@ -1,3 +1,44 @@
 .faq {
-  background: red;
+}
+
+.faq_container {
+  padding: 0 0 100px 0;
+}
+
+.faq_details_ctn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1.06px solid #adadad; */
+  padding: 0 0 15px 0;
+}
+
+.faq_details_title {
+  font: 600 normal 23.42px / 2.5 "Poppins";
+
+  text-align: left;
+}
+.faq_details_img {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6c5fbc;
+  border-radius: 50%;
+  width: 30.12px;
+  height: 30.12px;
+}
+
+.faq_details_img_plus {
+}
+
+.faq_details_text_body {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.faq_details_text {
 }
