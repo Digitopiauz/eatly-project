@@ -716,7 +716,7 @@
 
   .food_ctn {
     margin: 0 auto;
-    width: 1247px;
+    width: 1246px;
 
     border-bottom: 1px solid #cbcbcb;
   }
@@ -742,7 +742,8 @@
     border: 1.44px solid #f4f4f6;
     border-radius: 34.58px;
     box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
-    padding: 28px 15px 28px 0;
+    padding: 28px 0px 28px 0;
+    width: 224px;
   }
 
   .food_img {
@@ -792,7 +793,7 @@
     display: flex;
     align-items: center;
     gap: 34px;
-    padding: 0 0 12px 0;
+    padding: 0 0 16px 0;
   }
 
   .food_min {

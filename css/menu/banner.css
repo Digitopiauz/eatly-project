@@ -1,4 +1,4 @@
-.banner_container {
+/* .banner_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 113px;
@@ -16,6 +16,8 @@
   background-size: cover;
   padding: 55px 0 55px 59px;
   position: relative;
+
+  right: 0;
 }
 
 .banner_title_ctn::after {
@@ -130,7 +132,6 @@
 }
 
 .banner_item {
-  padding: 10px;
   background: #ffde8a;
   padding: 16px 16px 11px 15px;
   border-radius: 14px;
@@ -224,10 +225,6 @@
 }
 
 .banner_filter_button {
-  background-color: #fff;
-}
-
-.banner_filter_button {
   font: 600 normal 13.73px / 1.4 "Poppins";
   letter-spacing: -0.01em;
   text-align: left;
@@ -247,12 +244,258 @@
 .menu_title_ctns {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 @media (min-width: 320px) {
+  .banner_container {
+    display: block;
+    padding: 161px 0 161px 0;
+  }
+
+  .banner_title_ctn {
+    width: 306px;
+    border-radius: 7.55px;
+    background-image: url("/img/subscribe/sale-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0 20px 25px;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 0 0 52px 0;
+  }
+
+  .banner_title_ctn::after {
+    content: "";
+    position: absolute;
+    top: 18%;
+    right: 4.5%;
+    background-image: url("/img/subscribe/Food Image.png");
+    width: 102.77px;
+    height: 103.51px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .banner_title {
+    font: 800 normal 30.31px / 0.9 "Poppins";
+    text-align: left;
+    color: #fff;
+    padding: 0;
+  }
+
+  .banner_subtitle {
+    font: 800 normal 35.33px / 0.9 "Poppins";
+    color: #7c6fcd;
+    text-align: left;
+  }
+
+  .banner_search {
+    padding: 79px 0 0 0;
+    width: 315px;
+  }
+
+  .banner_search_inp {
+    padding: 0 0 20px 0;
+    position: relative;
+  }
+
+  .banner_search_input {
+    height: 54px;
+    width: 315px;
+
+    background-color: #ededed;
+    border-radius: 15px;
+  }
+
+  .banner_search_inp::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+
+    left: 14px;
+    width: 25px;
+    height: 25px;
+    background-image: url("/img/menu/icon/Search.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .banner_search_input[placeholder] {
+    font: 500 normal 12px / 1.17 "Poppins";
+
+    padding: 0 0 0 62px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .banner_button_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner_button {
+    border-radius: 0 6.3px 6.3px 0;
+    font: 500 normal 12px / 1.5 "Poppins";
+
+    text-align: center;
+    border: 1.27px solid #6c5fbc;
+    color: #6c5fbc;
+    height: 50px;
+    width: 315px;
+  }
+
+  .banner_button_food {
+    border-radius: 6.3px 0 0 6.3px;
+    width: 157px;
+  }
+
+  .banner_button_resturent {
+    background: #6c5fbc;
+    width: 157px;
+    color: #fff;
+  }
+
+  .banner_filter {
+    width: 315px;
+    padding: 28px 26px 35px 28px;
+    background-color: #fff;
+    box-shadow: 0px 14.71px 22.07px 0px #877dc840;
+    border-radius: 19.95px;
+    display: none;
+    visibility: hidden;
+  }
+
+  .banner_filters {
+    width: 315px;
+    padding: 28px 26px 35px 28px;
+    background-color: #fff;
+    box-shadow: 0px 14.71px 22.07px 0px #877dc840;
+    border-radius: 19.95px;
+  }
+
+  .banner_filter_title {
+    font: 600 normal 17.98px / 1.34 "Poppins";
+    text-align: left;
+    margin: 0 0 13px 0;
+  }
+
+  .banner_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 0 32px 0;
+  }
+
+  .banner_item {
+    background: #ffde8a;
+    padding: 13px 13px 9px 12px;
+    border-radius: 14px;
+  }
+
+  .hotdog {
+    background: #f7c5ba;
+  }
+
+  .icecream {
+    background-color: #5a85ff;
+  }
+
+  .icecream_title {
+    color: #002073;
+  }
+
   .menu_title_ctns {
     display: block;
   }
+
+  .banner_item_img {
+    width: 28.98px;
+    height: 28.98px;
+    margin: 0 0 14px 0;
+  }
+
+  .banner_item_title {
+    font: 500 normal 9.86px / 1.4 "Poppins";
+
+    text-align: center;
+  }
+
+  .banner_filter_sort_title {
+    margin: 0 0 15px 0;
+  }
+
+  .banner_filter__text {
+    display: flex;
+    align-items: center;
+    gap: 81px;
+    margin: 0 0 8px 0;
+  }
+
+  .banner_filter_text {
+    font: 500 normal 12.95px / 1.8 "Poppins";
+
+    text-align: left;
+    color: #acadb9;
+  }
+
+  .banner_filter_text_delevery {
+    font: 500 normal 12.95px / 1.8 "Poppins";
+    text-align: left;
+    color: #6c5fbc;
+  }
+
+  .banner_filter_price {
+    margin: 0 0 32px 0;
+  }
+
+  .banner_filter_price_title {
+  }
+
+  .banner_filter_sort_text {
+    margin: 0 0 23px 0;
+  }
+
+  .banner_filter_price_inp {
+  }
+
+  .banner_filter_price_input[type="range"] {
+    width: 100%;
+    height: 4.43px;
+    accent-color: #6c5fbc;
+  }
+
+  .banner_filter_price_number {
+    display: flex;
+    align-items: center;
+
+    gap: 28px;
+
+    margin: 10px 0 0 0;
+  }
+
+  .banner_filter_price_num {
+    font: 500 normal 8.85px / 2.8 "Poppins";
+
+    text-align: left;
+    color: #c2c3cb;
+  }
+
+  .banner_filter_button {
+    font: 600 normal 11.51px / 1.4 "Poppins";
+
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #fff;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: #6c5fbc;
+    padding: 16px 0 16px 0;
+  }
+
   .menu_food_result {
     display: block;
   }
@@ -264,6 +507,12 @@
 
   .menu_title_left {
     text-align: center;
+    padding: 0;
+  }
+
+  .menu_title_ctns {
+    display: block;
+    padding: 0 0 59px;
   }
 }
 
@@ -280,12 +529,14 @@
 
   .banner_title_ctn {
     width: 538px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-image: url("/img/subscribe/sale-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 39px 0 35px 40px;
     position: relative;
+
+    right: 0;
   }
 
   .banner_title_ctn::after {
@@ -378,11 +629,18 @@
   }
 
   .banner_filter {
+    display: block;
+    visibility: visible;
     width: 270px;
     padding: 22px 27px;
     background-color: #fff;
     box-shadow: 0px 14.71px 22.07px 0px #877dc840;
     border-radius: 16.92px;
+  }
+
+  .banner_filters {
+    display: none;
+    visibility: hidden;
   }
 
   .banner_filter_title {
@@ -523,8 +781,14 @@
     justify-content: space-between;
   }
 
+  .menu_menu_food_result {
+    display: block;
+    visibility: visible;
+  }
+
   .menu_food_result {
-    display: none;
+    visibility: hidden;
+    display: block;
   }
 }
 
@@ -547,6 +811,8 @@
     background-size: cover;
     padding: 55px 0 55px 59px;
     position: relative;
+
+    right: 0;
   }
 
   .banner_title_ctn::after {
