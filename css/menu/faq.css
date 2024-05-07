@@ -1,25 +1,61 @@
 .faq {
 }
 
-.faq_container {
+.faq_ctn {
+  width: 1152px;
+  margin: 0 auto;
   padding: 0 0 100px 0;
 }
 
+.faq_title {
+  font: 600 normal 45px / 1.2 "Poppins";
+  position: relative;
+  width: 408px;
+  margin: 0 auto;
+  padding: 0 9px 90px 0;
+  text-align: center;
+}
+
+.faq_title::after {
+  content: "";
+  position: absolute;
+  width: 29.16px;
+  height: 27.73px;
+  top: -5%;
+  right: 32%;
+  background-image: url("/img/icon/Illustration 01.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.faq_title span {
+  padding: 0 0 0 9px;
+  color: #6c5fbc;
+}
+
+.faq_details_list {
+  padding: 0 13px 0 13px;
+}
+
 .faq_details_ctn {
+  border-bottom: 1.06px solid #adadad;
+  padding: 0 0 15px 0;
+  margin: 0 0 30px 0;
+  cursor: pointer;
+}
+
+.faq_details {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border-bottom: 1.06px solid #adadad; */
-  padding: 0 0 15px 0;
 }
 
 .faq_details_title {
   font: 600 normal 23.42px / 2.5 "Poppins";
-
   text-align: left;
 }
+
 .faq_details_img {
-  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,15 +66,330 @@
 }
 
 .faq_details_img_plus {
+  width: auto;
+  height: auto;
 }
 
 .faq_details_text_body {
+  display: grid;
+  grid-template-rows: 0fr;
+
   visibility: hidden;
+  transition: all 0.3s ease;
 }
 
 .show {
+  display: grid;
+  grid-template-rows: 1fr;
+
   visibility: visible;
+  transition: all 0.3s ease;
 }
 
 .faq_details_text {
+  font: 400 normal 20px / 1.6 "Poppins";
+  width: 850px;
+  color: #686868;
+  overflow: hidden;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+@media (min-width: 320px) {
+  .faq {
+  }
+
+  .faq_ctn {
+    width: 316px;
+    margin: 0 auto;
+    padding: 0 0 88px 0;
+  }
+
+  .faq_title {
+    font: 600 normal 23.64px/ 1.2 "Poppins";
+    position: relative;
+    width: 230px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 6px 67px 0;
+  }
+
+  .faq_title::after {
+    content: "";
+    position: absolute;
+    width: 29.16px;
+    height: 27.73px;
+    top: -15%;
+    right: -7%;
+    background-image: url("/img/icon/Illustration 01.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(-27deg);
+  }
+
+  .faq_title span {
+    padding: 0 0 0 7px;
+    color: #6c5fbc;
+  }
+
+  .faq_details_list {
+    padding: 0 6px 0 0;
+  }
+
+  .faq_details_ctn {
+    border-bottom: 1.06px solid #adadad;
+    padding: 0 0 7px 0;
+    margin: 0 0 16.5px 0;
+    cursor: pointer;
+  }
+
+  .faq_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .faq_details_title {
+    font: 600 normal 12.3px / 2.5 "Poppins";
+
+    text-align: left;
+  }
+
+  .faq_details_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6c5fbc;
+    border-radius: 50%;
+    width: 15.82px;
+    height: 15.82px;
+  }
+
+  .faq_details_img_plus {
+    width: 5.57px;
+    height: 5.57px;
+  }
+
+  .faq_details_text_body {
+    display: grid;
+    grid-template-rows: 0fr;
+
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .show {
+    display: grid;
+    grid-template-rows: 1fr;
+
+    visibility: visible;
+    transition: all 0.3s ease;
+  }
+
+  .faq_details_text {
+    font: 400 normal 11px / 1.6 "Poppins";
+    text-align: justify;
+    width: 235px;
+    color: #686868;
+    overflow: hidden;
+    letter-spacing: 0.01em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .faq {
+  }
+
+  .faq_ctn {
+    width: 819px;
+    margin: 0 auto;
+    padding: 0 0 123px 0;
+  }
+
+  .faq_title {
+    font: 600 normal 32px / 1.2 "Poppins";
+    text-align: center;
+    width: 300px;
+    position: relative;
+    padding: 0 10px 64px 0;
+  }
+
+  .faq_title::after {
+    content: "";
+    position: absolute;
+    width: 29.16px;
+    height: 27.73px;
+    top: -25%;
+    right: 5%;
+    transform: rotate(-20deg);
+    background-image: url("/img/icon/Illustration 01.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .faq_title span {
+    color: #6c5fbc;
+  }
+
+  .faq_details_list {
+    padding: 0 10px 0 10px;
+  }
+
+  .faq_details_ctn {
+    border-bottom: 0.75px solid #adadad;
+    padding: 0 0 10.5px 0;
+    margin: 0 0 22px 0;
+    cursor: pointer;
+  }
+
+  .faq_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .faq_details_title {
+    font: 600 normal 16.65px / 2.5 "Poppins";
+
+    text-align: left;
+  }
+
+  .faq_details_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6c5fbc;
+    border-radius: 50%;
+    width: 21.42px;
+    height: 21.42px;
+  }
+
+  .faq_details_img_plus {
+    width: 7px;
+    height: 7px;
+  }
+
+  .faq_details_text_body {
+    display: grid;
+    grid-template-rows: 0fr;
+
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .show {
+    display: grid;
+    grid-template-rows: 1fr;
+
+    visibility: visible;
+    transition: all 0.3s ease;
+  }
+
+  .faq_details_text {
+    font: 400 normal 14.22px / 1.6 "Poppins";
+    width: 600px;
+
+    color: #686868;
+    overflow: hidden;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .faq {
+  }
+
+  .faq_ctn {
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+  }
+
+  .faq_title {
+    font: 600 normal 45px / 1.2 "Poppins";
+    position: relative;
+    width: 408px;
+    margin: 0 auto;
+    padding: 0 9px 90px 0;
+  }
+
+  .faq_title::after {
+    content: "";
+    position: absolute;
+    width: 29.16px;
+    height: 27.73px;
+    top: -5%;
+    right: -4%;
+    background-image: url("/img/icon/Illustration 01.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .faq_title span {
+    padding: 0 0 0 9px;
+    color: #6c5fbc;
+  }
+
+  .faq_details_list {
+    padding: 0 13px 0 13px;
+  }
+
+  .faq_details_ctn {
+    border-bottom: 1.06px solid #adadad;
+    padding: 0 0 15px 0;
+    margin: 0 0 30px 0;
+    cursor: pointer;
+  }
+
+  .faq_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .faq_details_title {
+    font: 600 normal 23.42px / 2.5 "Poppins";
+    text-align: left;
+  }
+
+  .faq_details_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6c5fbc;
+    border-radius: 50%;
+    width: 30.12px;
+    height: 30.12px;
+  }
+
+  .faq_details_img_plus {
+    width: auto;
+    height: auto;
+  }
+
+  .faq_details_text_body {
+    display: grid;
+    grid-template-rows: 0fr;
+
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .show {
+    display: grid;
+    grid-template-rows: 1fr;
+
+    visibility: visible;
+    transition: all 0.3s ease;
+  }
+
+  .faq_details_text {
+    font: 400 normal 20px / 1.6 "Poppins";
+    width: 850px;
+    color: #686868;
+    overflow: hidden;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
 }

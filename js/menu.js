@@ -1,19 +1,14 @@
-"use client"
+const accordionButtons = document.body.querySelectorAll(".faq_details_img")
 
-document.body
-  .querySelector(".faq_details_img")
-  .addEventListener("click", () => {
-    if (
-      document.body
-        .querySelector(".faq_details_text_body")
-        .classList.contains("show")
-    ) {
-      document.body
-        .querySelector(".faq_details_text_body")
-        .classList.remove("show")
+const textBody = document.querySelectorAll(".faq_details_text_body")
+
+accordionButtons.forEach((item, index) => {
+  const key = index
+  accordionButtons[key].addEventListener("click", () => {
+    if (textBody[key].classList.contains("show")) {
+      textBody[key].classList.remove("show")
     } else {
-      document.body
-        .querySelector(".faq_details_text_body")
-        .classList.add("show")
+      textBody[key].classList.add("show")
     }
   })
+})

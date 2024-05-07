@@ -33,7 +33,7 @@
 .download_img::after {
   position: absolute;
   content: "";
-  background-image: url("../img/icon/Illustration 01.svg");
+  background-image: url("/img/icon/Illustration 01.svg");
   top: -3%;
   right: 0;
   width: 52px;
@@ -83,7 +83,7 @@
 .download_btn::before {
   position: absolute;
   content: "";
-  background-image: url("../img/icon/vector.svg");
+  background-image: url("/img/icon/vector.svg");
   top: 88%;
   left: 29%;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@
   .download_img::after {
     position: absolute;
     content: "";
-    background-image: url("../img/icon/Illustration 01.svg");
+    background-image: url("/img/icon/Illustration 01.svg");
     top: 0;
     right: -55%;
     width: 30px;
@@ -210,7 +210,7 @@
   .download_btn::before {
     position: absolute;
     content: "";
-    background-image: url("../img/icon/vector.svg");
+    background-image: url("/img/icon/vector.svg");
     top: 150%;
     left: -5%;
     background-repeat: no-repeat;
@@ -290,7 +290,7 @@
   .download_img::after {
     position: absolute;
     content: "";
-    background-image: url("../img/icon/Illustration 01.svg");
+    background-image: url("/img/icon/Illustration 01.svg");
     top: -2%;
     right: 0;
     width: 38px;
@@ -350,7 +350,7 @@
   .download_btn::before {
     position: absolute;
     content: "";
-    background-image: url("../img/icon/vector.svg");
+    background-image: url("/img/icon/vector.svg");
     top: 88%;
     left: 29%;
     background-repeat: no-repeat;
@@ -440,9 +440,9 @@
   .download_img::after {
     position: absolute;
     content: "";
-    background-image: url("../img/icon/Illustration 01.svg");
-    top: -3%;
-    right: 0;
+    background-image: url("/img/icon/Illustration 01.svg");
+    top: -4%;
+    right: -4%;
     width: 52px;
     height: 62px;
     background-size: cover;
@@ -491,7 +491,7 @@
   .download_btn::before {
     position: absolute;
     content: "";
-    background-image: url("../img/icon/vector.svg");
+    background-image: url("/img/icon/vector.svg");
     top: 88%;
     left: 29%;
     background-repeat: no-repeat;
