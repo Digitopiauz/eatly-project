@@ -275,9 +275,268 @@
   border-radius: 78px;
 } */
 
+.control_img {
+  width: 51.03px;
+  height: 52.89px;
+}
+
+.control_img img {
+  width: 51.03px;
+  height: 52.89px;
+}
+
+.control_info {
+  margin: 0;
+  width: 100%;
+}
+
+.control_info_title {
+  font: 600 normal 12.59px / 1.4 "Poppins";
+  text-align: left;
+}
+
+.control_info_status {
+  font: 500 normal 7.95px / 1.4 "Poppins";
+}
+
+.control_info_time {
+  font: 500 normal 8.62px / 1.39 "Poppins";
+
+  text-align: left;
+  bottom: 5px;
+  position: absolute;
+  right: 15px;
+  color: #acadb9;
+}
+
+.control_info_status-green {
+  color: green;
+}
+
+.control_info_status-red {
+  color: red;
+}
+
+.control_left {
+  padding: 22px 22px 26px 22px;
+  background: #ffffff;
+  border: 1px solid #edf2f7;
+  border-radius: 25px;
+  box-shadow: 0 20px 30px rgba(50, 49, 66, 0.2);
+  margin: 100px 0 0 0;
+
+  position: relative;
+}
+
+.control_left::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -5%;
+  background-image: url("/img/icon/vector.svg");
+  background-size: contain;
+  transform: rotate(-90deg);
+  width: 100px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+.control_option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 77px;
+  margin-bottom: 21px;
+}
+
+.control_option_title {
+  font: 800 normal 16.75px / 1.34 "Manrope";
+
+  letter-spacing: 0.19px;
+  text-align: left;
+}
+
+.control_option_select {
+  font: 600 normal 11.16px / 1.5 "Manrope";
+
+  appearance: none;
+  text-align: right;
+  letter-spacing: 0.37px;
+  background: #fafafa;
+  padding: 8px 35px 8px 13px;
+  border-radius: 7.44px;
+}
+
+.control_option_select_vector {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.control_option_select_vector::after {
+  position: absolute;
+  right: 12px;
+  width: 17.87px;
+  height: 17.87px;
+  content: "";
+  background-image: url("/img/control/icon/chevron-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.control_option_option {
+  font: 600 normal 11.16px / 1.5 "Manrope";
+  letter-spacing: 0.37px;
+  color: #1a202c;
+  text-align: left;
+}
+
+.control_left_list {
+}
+
+.control_left_item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 14px 32px 14px;
+
+  margin: 0 0 10px 0;
+  border-radius: 13.4px;
+  border: 1.12px solid #edf2f7;
+}
+
+.control_left_item::before {
+  opacity: 0.2;
+  background-color: #6b5fbc;
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  right: 25px;
+  height: 6.7px;
+  border-radius: 55.84px;
+}
+
+.control_left_item::after {
+  background-color: #6b5fbc;
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 22px;
+  right: 25px;
+  height: 6.7px;
+  border-radius: 55.84px;
+  width: 65%;
+}
+
+.control_left_icon_text {
+  display: flex;
+  align-items: center;
+}
+
+.control_left_item_icon {
+  position: relative;
+  background: #f4f0ff;
+  width: 35.74px;
+  height: 35.74px;
+  border-radius: 50%;
+}
+
+.control_left_item_icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14.89px;
+  height: 14.89px;
+  transform: translate(-50%, -50%);
+  background-image: url("/img/control/icon/wallet.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.control_left_item_icon_money {
+  position: relative;
+}
+
+.control_left_item_icon_money::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 17.87px;
+  height: 17.87px;
+  transform: translate(-50%, -50%);
+  background-image: url("/img/control/icon/money.svg");
+  background-repeat: no-repeat;
+}
+
+.money_bg {
+  background: #f2fdf6;
+}
+
+.control_left_item_text {
+  margin: 0 0 0 11px;
+}
+
+.control_left_item_title {
+  font: 800 normal 11.16px / 1.5 "Manrope";
+  letter-spacing: 0.37px;
+  text-align: left;
+
+  color: #1a202c;
+  margin: 0 0 4px 0;
+}
+
+.control_left_text {
+  font: 500 normal 9.3px / 1.5 "Manrope";
+  text-align: left;
+  letter-spacing: 0.45px;
+  color: #a0aec0;
+}
+
+.control_left_item_price {
+  font: 800 normal 13.03px / 1.49 "Manrope";
+  text-align: right;
+  letter-spacing: 0.19px;
+  text-align: right;
+  color: #1a202c;
+}
+
+.control_left_item_yellow {
+  position: relative;
+}
+
+.control_left_item_yellow::before {
+  background-color: #fbac18;
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  right: 25px;
+  height: 9.42px;
+  border-radius: 78px;
+}
+
+.control_left_item_yellow::after {
+  background-color: #fbac18;
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 22px;
+  right: 25px;
+  width: 54%;
+  height: 6.7px;
+  border-radius: 55.84px;
+}
+
 @media (min-width: 320px) {
   .control {
     padding: 0 0 100px 0;
+    margin: 0 0 100px 0;
+    border-bottom: 1px solid #cbcbcb;
   }
 
   .control_ctn {
@@ -310,9 +569,9 @@
     align-items: center;
     gap: 13px;
 
-    border: 1px solid #000;
     border-radius: 12px;
-    box-shadow: 0 12px 25px rgba(70, 70, 70, 0.05);
+    box-shadow: 0px 14.27px 21.41px 0px #46464608;
+
     background: #ffffff;
 
     position: relative;
@@ -320,272 +579,19 @@
     width: 230px;
     padding: 5px 0px 1px 12px;
   }
-
-  .control_img {
-    width: 51.03px;
-    height: 52.89px;
-  }
-
-  .control_img img {
-    width: 51.03px;
-    height: 52.89px;
-  }
-
-  .control_info {
-    margin: 0;
-    width: 100%;
-  }
-
-  .control_info_title {
-    font: 600 normal 12.59px / 1.4 "Poppins";
-    text-align: left;
-  }
-
-  .control_info_status {
-    font: 500 normal 7.95px / 1.4 "Poppins";
-  }
-
-  .control_info_time {
-    font: 500 normal 8.62px / 1.39 "Poppins";
-
-    text-align: left;
-    bottom: 5px;
-    position: absolute;
-    right: 15px;
-    color: #acadb9;
-  }
-
-  .control_info_status-green {
-    color: green;
-  }
-
-  .control_info_status-red {
-    color: red;
-  }
-
-  .control_left {
-    padding: 22px 22px 26px 22px;
-    background: #ffffff;
-    border: 1px solid #edf2f7;
-    border-radius: 25px;
-    box-shadow: 0 20px 30px rgba(50, 49, 66, 0.2);
-    margin: 100px 0 0 0;
-
-    position: relative;
-  }
-
-  .control_left::before {
-    content: "";
-    position: absolute;
-    top: -30%;
-    right: -5%;
-    background-image: url("../img/icon/vector.svg");
-    background-size: contain;
-    transform: rotate(-90deg);
-    width: 100px;
-    height: 40px;
-    background-repeat: no-repeat;
-  }
-
-  .control_option {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 77px;
-    margin-bottom: 21px;
-  }
-
-  .control_option_title {
-    font: 800 normal 16.75px / 1.34 "Manrope";
-
-    letter-spacing: 0.19px;
-    text-align: left;
-  }
-
-  .control_option_select {
-    font: 600 normal 11.16px / 1.5 "Manrope";
-
-    appearance: none;
-    text-align: right;
-    letter-spacing: 0.37px;
-    background: #fafafa;
-    padding: 8px 35px 8px 13px;
-    border-radius: 7.44px;
-  }
-
-  .control_option_select_vector {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-
-  .control_option_select_vector::after {
-    position: absolute;
-    right: 12px;
-    width: 17.87px;
-    height: 17.87px;
-    content: "";
-    background-image: url("../img/control/icon/chevron-down.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-
-  .control_option_option {
-    font: 600 normal 11.16px / 1.5 "Manrope";
-    letter-spacing: 0.37px;
-    color: #1a202c;
-  }
-
-  .control_left_list {
-  }
-
-  .control_left_item {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 14px 14px 32px 14px;
-
-    margin: 0 0 10px 0;
-    border-radius: 13.4px;
-    border: 1.12px solid #edf2f7;
-  }
-
-  .control_left_item::before {
-    opacity: 0.2;
-    background-color: #6b5fbc;
-    content: "";
-    position: absolute;
-    bottom: 15px;
-    left: 25px;
-    right: 25px;
-    height: 6.7px;
-    border-radius: 55.84px;
-  }
-
-  .control_left_item::after {
-    background-color: #6b5fbc;
-    content: "";
-    position: absolute;
-    bottom: 15px;
-    left: 22px;
-    right: 25px;
-    height: 6.7px;
-    border-radius: 55.84px;
-    width: 65%;
-  }
-
-  .control_left_icon_text {
-    display: flex;
-    align-items: center;
-  }
-
-  .control_left_item_icon {
-    position: relative;
-    background: #f4f0ff;
-    width: 35.74px;
-    height: 35.74px;
-    border-radius: 50%;
-  }
-
-  .control_left_item_icon::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 14.89px;
-    height: 14.89px;
-    transform: translate(-50%, -50%);
-    background-image: url("../img/control/icon/wallet.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .control_left_item_icon_money {
-    position: relative;
-  }
-
-  .control_left_item_icon_money::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 17.87px;
-    height: 17.87px;
-    transform: translate(-50%, -50%);
-    background-image: url("../img/control/icon/money.svg");
-    background-repeat: no-repeat;
-  }
-
-  .money_bg {
-    background: #f2fdf6;
-  }
-
-  .control_left_item_text {
-    margin: 0 0 0 11px;
-  }
-
-  .control_left_item_title {
-    font: 800 normal 11.16px / 1.5 "Manrope";
-    letter-spacing: 0.37px;
-    text-align: left;
-
-    color: #1a202c;
-    margin: 0 0 4px 0;
-  }
-
-  .control_left_text {
-    font: 500 normal 9.3px / 1.5 "Manrope";
-    text-align: left;
-    letter-spacing: 0.45px;
-    color: #a0aec0;
-  }
-
-  .control_left_item_price {
-    font: 800 normal 13.03px / 1.49 "Manrope";
-    text-align: right;
-    letter-spacing: 0.19px;
-    text-align: right;
-    color: #1a202c;
-  }
-
-  .control_left_item_yellow {
-    position: relative;
-  }
-
-  .control_left_item_yellow::before {
-    background-color: #fbac18;
-    content: "";
-    position: absolute;
-    bottom: 15px;
-    left: 25px;
-    right: 25px;
-    height: 9.42px;
-    border-radius: 78px;
-  }
-
-  .control_left_item_yellow::after {
-    background-color: #fbac18;
-    content: "";
-    position: absolute;
-    bottom: 15px;
-    left: 22px;
-    right: 25px;
-    width: 54%;
-    height: 6.7px;
-    border-radius: 55.84px;
-  }
 }
 
 @media (min-width: 1024px) {
   .control {
-    padding: 0 0 100px 0;
+    border: none;
+    margin: 0;
   }
 
   .control_ctn {
     display: flex;
     align-items: center;
+    padding: 0 0 100px 0;
+    border-bottom: 1px solid #cbcbcb;
     gap: 105px;
     margin: 0 auto;
     width: 920px;
@@ -613,7 +619,6 @@
     align-items: center;
     gap: 12px;
 
-    border: 1px solid #000;
     border-radius: 12px;
     box-shadow: 0 12px 25px rgba(70, 70, 70, 0.05);
     background: #ffffff;
@@ -622,6 +627,12 @@
     margin: 0 0 10px;
     width: 245px;
     padding: 5px 0px 1px 12px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .control_item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 20.27px 40.41px 0px #4646461a;
   }
 
   .control_img {
@@ -716,7 +727,7 @@
     width: 17.87px;
     height: 17.87px;
     content: "";
-    background-image: url("../img/control/icon/chevron-down.svg");
+    background-image: url("/img/control/icon/chevron-down.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -726,6 +737,7 @@
     font: 600 normal 13.4px / 1.5 "Manrope";
     letter-spacing: 0.45px;
     color: #1a202c;
+    text-align: left;
   }
 
   .control_left_list {
@@ -788,7 +800,7 @@
     width: 18px;
     height: 18px;
     transform: translate(-50%, -50%);
-    background-image: url("../img/control/icon/wallet.svg");
+    background-image: url("/img/control/icon/wallet.svg");
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -805,7 +817,7 @@
     width: 17.87px;
     height: 17.87px;
     transform: translate(-50%, -50%);
-    background-image: url("../img/control/icon/money.svg");
+    background-image: url("/img/control/icon/money.svg");
     background-repeat: no-repeat;
   }
 
@@ -875,7 +887,7 @@
     display: flex;
     align-items: center;
     gap: 135px;
-
+    border-bottom: 1px solid #cbcbcb;
     padding: 0 0 100px 0;
     width: 1280px;
     margin: 0 auto;
@@ -905,7 +917,7 @@
     display: flex;
     align-items: center;
     gap: 19px;
-    border: 1px solid #000;
+
     border-radius: 12px;
     box-shadow: 0 12px 25px rgba(70, 70, 70, 0.05);
     background: #ffffff;
@@ -915,6 +927,11 @@
     padding: 4px 17px;
     width: 345px;
     margin: 0 0 15px;
+  }
+
+  .control_item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 20.27px 40.41px 0px #4646461a;
   }
 
   .control_img {
@@ -1005,7 +1022,7 @@
     width: 25.13px;
     height: 25.13px;
     content: "";
-    background-image: url("../img/control/icon/chevron-down.svg");
+    background-image: url("/img/control/icon/chevron-down.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1015,6 +1032,7 @@
     font: 600 normal 18.85px / 1.4 "Manrope";
     letter-spacing: 0.63px;
     color: #1a202c;
+    text-align: left;
   }
 
   .control_left_list {
@@ -1076,7 +1094,7 @@
     width: 25px;
     height: 25px;
     transform: translate(-50%, -50%);
-    background-image: url("../img/control/icon/wallet.svg");
+    background-image: url("/img/control/icon/wallet.svg");
   }
 
   .control_left_item_icon_money {
@@ -1091,7 +1109,7 @@
     width: 25px;
     height: 25px;
     transform: translate(-50%, -50%);
-    background-image: url("../img/control/icon/money.svg");
+    background-image: url("/img/control/icon/money.svg");
   }
 
   .money_bg {

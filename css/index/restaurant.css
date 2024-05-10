@@ -1,5 +1,4 @@
 .restaurant {
-  padding: 0 0 100px 0;
   color: #323142;
 }
 
@@ -98,7 +97,6 @@
 }
 .restaurant_min {
   font: 400 normal 19px / 1.36 "Manrope";
-
   text-align: left;
   color: #8e97a6;
 }
@@ -112,9 +110,10 @@
   position: absolute;
   content: "";
   top: 10%;
-  right: 100%;
-  background-image: url("../img/restartnt/star.svg");
+  left: -12.5%;
+  background-image: url("/img/restartnt/star.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 26px;
 }
@@ -167,8 +166,20 @@
   }
 
   .restaurant_rating {
+    position: relative;
   }
 
+  .restaurant_rating::before {
+    position: absolute;
+    content: "";
+    top: 5%;
+    left: -26%;
+    background-image: url("/img/restartnt/star.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20.51px;
+    height: 20.51px;
+  }
   .restaurant_button_icon {
   }
 }
@@ -222,19 +233,31 @@
   }
 
   .restaurant_rating {
+    position: relative;
   }
 
+  .restaurant_rating::before {
+    position: absolute;
+    content: "";
+    top: -5%;
+    left: -30%;
+    background-image: url("/img/restartnt/star.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18.34px;
+    height: 18.34px;
+  }
   .restaurant_button_icon {
   }
 }
 
 @media (min-width: 1440px) {
   .restaurant {
-    padding: 0 0 100px 0;
     color: #323142;
   }
 
   .restaurant_container {
+    border-bottom: 1px solid #cbcbcb;
   }
 
   .restaurant_title {
@@ -343,9 +366,10 @@
     position: absolute;
     content: "";
     top: 10%;
-    right: 95%;
-    background-image: url("../img/restartnt/star.svg");
+    left: -12.5%;
+    background-image: url("/img/restartnt/star.svg");
     background-repeat: no-repeat;
+    background-size: contain;
     width: 26px;
     height: 26px;
   }

@@ -35,6 +35,11 @@
   padding: 0 0 0 7px;
 }
 
+.blog_card_img img {
+  width: 309px;
+  height: 272px;
+}
+
 .blog_card_title {
   font: 600 normal 21.14px / 1.19 "Poppins";
   padding: 20px 0 20px 7px;
@@ -84,4 +89,197 @@
   font: 500 normal 15.85px / 1.98 "Poppins";
   text-align: left;
   color: #b7b4b4;
+}
+
+@media (min-width: 1024px) {
+  .subscribe_blog {
+    padding: 100px 0 100px 0;
+  }
+
+  .blog_ctn {
+    width: 854px;
+    margin: 0 auto;
+    padding: 0 0 180px 0;
+  }
+
+  .blog_ctn_title {
+    font: 600 normal 32px / 1.2 "Poppins";
+
+    padding: 0 0 53px 0;
+    text-align: center;
+  }
+
+  .blog_ctn_title span {
+    color: #6c5fbc;
+  }
+
+  .blog_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 21px;
+  }
+
+  .blog_card_content {
+    padding: 0;
+    border-radius: 11.27px;
+    box-shadow: 0px 3.91px 46.86px 0px #c5c5c540;
+  }
+
+  .blog_card_img {
+    text-align: center;
+    padding: 0;
+  }
+
+  .blog_card_img img {
+    width: 220px;
+    height: 193px;
+  }
+
+  .blog_card_title {
+    font: 600 normal 15.03px/ 1.19 "Poppins";
+
+    padding: 0;
+    text-align: left;
+  }
+
+  .blog_card_writer {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .blog_card_writer_img {
+  }
+
+  .blog_card_writer_img_img {
+    width: 31.08px;
+    height: 31.08px;
+  }
+
+  .blog_card_writer_by {
+    position: relative;
+  }
+
+  .blog_card_writer_by_title {
+    font: 400 normal 8.37px / 1.5 "Poppins";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    text-align: left;
+  }
+
+  .blog_card_writer_name_ctn {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+  }
+
+  .blog_card_writer_name {
+    font: 500 normal 12.1px / 1.53 "Poppins";
+    text-align: left;
+  }
+
+  .blog_card_writer_date {
+    font: 500 normal 11.27px / 1.98 "Poppins";
+    text-align: left;
+    color: #b7b4b4;
+  }
+}
+
+@media (min-width: 1440px) {
+  .subscribe_blog {
+    padding: 180px 0 180px 0;
+  }
+
+  .blog_ctn {
+    width: 1165px;
+    margin: 0 auto;
+    padding: 0 0 180px 0;
+  }
+
+  .blog_ctn_title {
+    font: 600 normal 45px / 1.2 "Poppins";
+    padding: 0 0 100px 0;
+    text-align: center;
+  }
+
+  .blog_ctn_title span {
+    color: #6c5fbc;
+  }
+
+  .blog_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 115px 60px;
+  }
+
+  .blog_card_content {
+    padding: 25px 19px 30px 13px;
+    border-radius: 15.85px;
+    box-shadow: 0px 3.91px 46.86px 0px #c5c5c540;
+  }
+
+  .blog_card_img {
+    padding: 0 0 0 7px;
+    text-align: center;
+  }
+
+  .blog_card_img img {
+    width: 309px;
+    height: 272px;
+  }
+
+  .blog_card_title {
+    font: 600 normal 21.14px / 1.19 "Poppins";
+    padding: 20px 0 20px 7px;
+    text-align: left;
+  }
+
+  .blog_card_writer {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  .blog_card_writer_img {
+  }
+
+  .blog_card_writer_img_img {
+    width: 43.7px;
+    height: 43.7px;
+  }
+
+  .blog_card_writer_by {
+    position: relative;
+  }
+
+  .blog_card_writer_by_title {
+    font: 400 normal 11.77px / 1.5 "Poppins";
+    position: absolute;
+    top: 9%;
+    left: 0;
+
+    text-align: left;
+  }
+
+  .blog_card_writer_name_ctn {
+    display: flex;
+    align-items: center;
+    gap: 78px;
+    padding: 16px 0 0 0;
+  }
+
+  .blog_card_writer_name {
+    font: 500 normal 17.02px / 1.53 "Poppins";
+    text-align: left;
+  }
+
+  .blog_card_writer_date {
+    font: 500 normal 15.85px / 1.98 "Poppins";
+    text-align: left;
+    color: #b7b4b4;
+  }
 }

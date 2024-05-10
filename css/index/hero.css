@@ -729,8 +729,13 @@
   }
 
   .hero_trustpilot_img {
-    width: auto;
-    height: auto;
+    width: 90.69px;
+    height: 19.5px;
+  }
+
+  .hero_trustpilot_img_star {
+    width: 29.46px;
+    height: 28px;
   }
   .hero_stars {
     display: flex;

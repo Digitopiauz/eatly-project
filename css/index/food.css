@@ -780,7 +780,8 @@
 
   .tag-green {
     color: #309d5b;
-    background: #33ac64;
+    /* background: #72e7a1; */
+    background: #f2fdf6;
   }
 
   .food_name {

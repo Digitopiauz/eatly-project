@@ -1,5 +1,5 @@
 .download {
-  padding: 100px 0 200px 0;
+  padding: 100px 0 100px 0;
 }
 
 .download_ctn {
@@ -125,10 +125,6 @@
 .download_button:hover .download_icon {
   filter: brightness(1);
 }
-
-/* .download_icon:hover {
-  filter: brightness(1);
-} */
 
 @media (min-width: 320px) {
   .download {
@@ -401,7 +397,7 @@
 
 @media (min-width: 1440px) {
   .download {
-    padding: 100px 0 200px 0;
+    padding: 100px 0 100px 0;
   }
 
   .download_ctn {
