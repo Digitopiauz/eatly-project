@@ -307,7 +307,7 @@
   }
 } */
 
-.food {
+/* .food {
 }
 
 .food_ctn {
@@ -439,7 +439,7 @@
 
   letter-spacing: -0.1px;
   color: #acadb9;
-}
+} */
 @media (min-width: 320px) {
   .food {
     padding: 85px 0 85px 0;
@@ -475,13 +475,26 @@
     border-radius: 34.58px;
     box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
     padding: 20px 15px 20px 15px;
+    transition: all 0.3s ease-in-out;
   }
 
   .food_img {
-    padding: 0 0 11px 0;
     width: 120px;
     height: 120px;
     text-align: center;
+    position: relative;
+  }
+
+  .food_img::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    background-image: url("/img/food/Heart.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14.36px;
+    height: 11.9px;
   }
 
   .food_img_img {
@@ -490,7 +503,6 @@
   }
 
   .food_text {
-    padding: 5px 0 0 0;
   }
 
   .food_tag {
@@ -543,7 +555,6 @@
     display: flex;
     align-items: center;
     gap: 38px;
-    /* padding: ; */
   }
 
   .food_cost {
@@ -612,13 +623,29 @@
     border-radius: 34.58px;
     box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
     padding: 25px 19px 22px 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .food_item:hover {
+    transform: scale(1.1);
   }
 
   .food_img {
-    text-align: center;
-    padding: 0;
     width: 129px;
     height: 129px;
+    position: relative;
+  }
+
+  .food_img::after {
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    content: "";
+    background-image: url("/img/food/Heart.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15.61px;
+    height: 12.93px;
   }
 
   .food_img_img {
@@ -627,7 +654,6 @@
   }
 
   .food_text {
-    padding: 8px 0 0 0;
   }
 
   .food_tag {
@@ -742,15 +768,35 @@
     border: 1.44px solid #f4f4f6;
     border-radius: 34.58px;
     box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
-    padding: 28px 0px 28px 0;
     width: 224px;
+    padding: 28px 20px 28px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .food_item:hover {
+    transform: scale(1.1);
   }
 
   .food_img {
-    text-align: center;
-    padding: 0 0 11px 10px;
     width: 182px;
     height: 182px;
+    position: relative;
+  }
+
+  .food_img::after {
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    content: "";
+    background-image: url("/img/food/Heart.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 21.95px;
+    height: 20px;
+  }
+
+  .food_img:hover::after {
+    cursor: pointer;
   }
 
   .food_img_img {
@@ -759,7 +805,7 @@
   }
 
   .food_text {
-    padding: 12px 0 0 14px;
+    padding: 12px 0 0 0;
   }
   .food_tag {
     font: 400 normal 11.42px / 1.5 "Poppins";

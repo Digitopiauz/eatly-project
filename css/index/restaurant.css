@@ -33,10 +33,6 @@
   cursor: pointer;
 }
 
-.restaurant_item:hover {
-  transform: scale(1.1);
-}
-
 .restaurant_img {
   position: relative;
 }
@@ -199,6 +195,10 @@
   }
 
   .restaurant_item {
+  }
+
+  .restaurant_item:hover {
+    transform: scale(1.1);
   }
 
   .restaurant_img {
@@ -365,8 +365,8 @@
   .restaurant_rating::before {
     position: absolute;
     content: "";
-    top: 10%;
-    left: -12.5%;
+    top: 0;
+    left: -13.5%;
     background-image: url("/img/restartnt/star.svg");
     background-repeat: no-repeat;
     background-size: contain;

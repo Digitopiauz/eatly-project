@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eatly</title>
+
     <link rel="shortcut icon" href="./img/logo/page_logo.svg" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
@@ -321,11 +327,7 @@
             <ul class="food_list">
               <li class="food_item">
                 <div class="food_img">
-                  <img
-                    class="food_img_img"
-                    src="/img/food/FoodImage.png"
-                    alt=""
-                  />
+                  <img class="food_img_img" src="/img/food/01.png" alt="" />
                 </div>
 
                 <div class="food_text">
@@ -354,11 +356,7 @@
 
               <li class="food_item">
                 <div class="food_img">
-                  <img
-                    class="food_img_img"
-                    src="/img/food/FoodImage.png"
-                    alt=""
-                  />
+                  <img class="food_img_img" src="/img/food/02.png" alt="" />
                 </div>
 
                 <div class="food_text">
@@ -387,11 +385,7 @@
 
               <li class="food_item">
                 <div class="food_img">
-                  <img
-                    class="food_img_img"
-                    src="/img/food/FoodImage.png"
-                    alt=""
-                  />
+                  <img class="food_img_img" src="/img/food/03.png" alt="" />
                 </div>
 
                 <div class="food_text">
@@ -420,11 +414,7 @@
 
               <li class="food_item">
                 <div class="food_img">
-                  <img
-                    class="food_img_img"
-                    src="/img/food/FoodImage.png"
-                    alt=""
-                  />
+                  <img class="food_img_img" src="/img/food/01.png" alt="" />
                 </div>
 
                 <div class="food_text">
@@ -453,11 +443,7 @@
 
               <li class="food_item">
                 <div class="food_img">
-                  <img
-                    class="food_img_img"
-                    src="/img/food/FoodImage.png"
-                    alt=""
-                  />
+                  <img class="food_img_img" src="/img/food/02.png" alt="" />
                 </div>
 
                 <div class="food_text">
@@ -595,146 +581,153 @@
         <section class="reviews">
           <h2 class="reviews_titles"><span> Customer </span> Say</h2>
           <div class="reviews_container _container">
-            <ul class="reviews_list">
-              <li class="reviews_item">
-                <div class="reviews_header">
-                  <div class="reviews_img">
-                    <img src="/img/reviews/Pic.png" alt="" />
+            <div class="swiper">
+              <div class="reviews_list swiper-wrapper">
+                <div class="reviews_item swiper-slide">
+                  <div class="reviews_header">
+                    <div class="reviews_img">
+                      <img src="/img/reviews/Pic.png" alt="" />
+                    </div>
+
+                    <div class="reviews_info">
+                      <div class="reviews_info_title">Alexander R.</div>
+                      <div class="reviews_info_subtitle">01 Year With Us</div>
+                    </div>
                   </div>
+                  <p class="reviews_text">
+                    “ Online invoice payment helps companies save time, are
+                    faster and save maximum effort for the clients and save
+                    maximum effort. Online invoice payment helps companies save
+                    time ”
+                  </p>
 
-                  <div class="reviews_info">
-                    <div class="reviews_info_title">Alexander R.</div>
-                    <div class="reviews_info_subtitle">01 Year With Us</div>
-                  </div>
-                </div>
-                <p class="reviews_text">
-                  “ Online invoice payment helps companies save time, are faster
-                  and save maximum effort for the clients and save maximum
-                  effort. Online invoice payment helps companies save time ”
-                </p>
-
-                <div class="reviews_rating">
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                </div>
-              </li>
-
-              <li class="reviews_item">
-                <div class="reviews_header">
-                  <div class="reviews_img">
-                    <img src="/img/reviews/Pic.png" alt="" />
-                  </div>
-
-                  <div class="reviews_info">
-                    <div class="reviews_info_title">Alexander R.</div>
-                    <div class="reviews_info_subtitle">01 Year With Us</div>
+                  <div class="reviews_rating">
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
                   </div>
                 </div>
-                <p class="reviews_text">
-                  “ Online invoice payment helps companies save time, are faster
-                  and save maximum effort for the clients and save maximum
-                  effort. Online invoice payment helps companies save time ”
-                </p>
 
-                <div class="reviews_rating">
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                </div>
-              </li>
+                <div class="reviews_item swiper-slide">
+                  <div class="reviews_header">
+                    <div class="reviews_img">
+                      <img src="/img/reviews/Pic.png" alt="" />
+                    </div>
 
-              <li class="reviews_item">
-                <div class="reviews_header">
-                  <div class="reviews_img">
-                    <img src="/img/reviews/Pic.png" alt="" />
+                    <div class="reviews_info">
+                      <div class="reviews_info_title">Alexander R.</div>
+                      <div class="reviews_info_subtitle">01 Year With Us</div>
+                    </div>
                   </div>
+                  <p class="reviews_text">
+                    “ Online invoice payment helps companies save time, are
+                    faster and save maximum effort for the clients and save
+                    maximum effort. Online invoice payment helps companies save
+                    time ”
+                  </p>
 
-                  <div class="reviews_info">
-                    <div class="reviews_info_title">Alexander R.</div>
-                    <div class="reviews_info_subtitle">01 Year With Us</div>
+                  <div class="reviews_rating">
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
                   </div>
                 </div>
-                <p class="reviews_text">
-                  “ Online invoice payment helps companies save time, are faster
-                  and save maximum effort for the clients and save maximum
-                  effort. Online invoice payment helps companies save time ”
-                </p>
 
-                <div class="reviews_rating">
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
-                  <img
-                    class="reviews_rating_star"
-                    src="/img/reviews/star.svg"
-                    alt=""
-                  />
+                <div class="reviews_item swiper-slide">
+                  <div class="reviews_header">
+                    <div class="reviews_img">
+                      <img src="/img/reviews/Pic.png" alt="" />
+                    </div>
+
+                    <div class="reviews_info">
+                      <div class="reviews_info_title">Alexander R.</div>
+                      <div class="reviews_info_subtitle">01 Year With Us</div>
+                    </div>
+                  </div>
+                  <p class="reviews_text">
+                    “ Online invoice payment helps companies save time, are
+                    faster and save maximum effort for the clients and save
+                    maximum effort. Online invoice payment helps companies save
+                    time ”
+                  </p>
+
+                  <div class="reviews_rating">
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                  </div>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
+
+          <!-- </div> -->
         </section>
 
         <section class="subscribe">
@@ -806,16 +799,16 @@
             <nav class="footer_menu">
               <ul class="footer_list">
                 <li class="footer_item">
-                  <a href="#" class="footer_item_link">Blog</a>
+                  <a href="/blog.html" class="footer_item_link">Blog</a>
                 </li>
                 <li class="footer_item">
-                  <a href="" class="footer_item_link">Pricing</a>
+                  <a href="/pricing.html" class="footer_item_link">Pricing</a>
                 </li>
                 <li class="footer_item">
-                  <a href="#" class="footer_item_link">About Us</a>
+                  <a href="/aboutus.html" class="footer_item_link">About Us</a>
                 </li>
                 <li class="footer_item">
-                  <a href="#" class="footer_item_link">Contact</a>
+                  <a href="/contact.html" class="footer_item_link">Contact</a>
                 </li>
               </ul>
             </nav>
@@ -1063,6 +1056,8 @@
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/swiper.js"></script>
   </body>
 </html>
