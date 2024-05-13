@@ -1,0 +1,123 @@
+.pricing {
+  padding: 100px 0 990px 0;
+}
+
+.pricing_ctn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing_left {
+  background-color: #6c5fbc;
+  width: 531px;
+  height: 818px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.pricing_left::before {
+  position: absolute;
+  content: "";
+  top: 38%;
+  right: -28%;
+
+  width: 52.46px;
+  height: 61.74px;
+  background-color: #fff;
+  background-image: url("/img/icon/Illustration 01.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pricing_left::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: -20%;
+  border-radius: 50px;
+  width: 304px;
+  height: 609px;
+  background-image: url("/img/mobileScreen.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 11;
+}
+
+.pricing_left_title {
+  padding: 84px 0 0 0;
+  text-align: center;
+  font: 600 normal 48px / 1.05 "Poppins";
+  color: #f9f9f9;
+  position: relative;
+}
+
+.pricing_left_title::after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  width: 366px;
+  height: 127px;
+
+  background-image: url("/img/pricing/01.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pricing_left_title::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  width: 30px;
+  height: 57px;
+
+  background-image: url("/img/pricing/02.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pricing_right {
+}
+
+.pricing_right_title {
+  font: 600 normal 40px / 1.385 "Poppins";
+  padding: 0 0 62px 0;
+  text-align: left;
+}
+
+.pricing_right_title span {
+  color: #6c5fbc;
+}
+
+.pricing_right_input_ctn {
+}
+
+.pricing_right_input {
+}
+
+.pricing_input {
+  width: 493px;
+  border: 2px solid #6c5fbc;
+  border-radius: 16.89px;
+}
+.pricing_input[placeholder] {
+  border: 2px solid #6c5fbc;
+  font: 600 normal 16.89px / 1.5 "Inter";
+  padding: 25px 0 25px 25px;
+  margin: 0 0 26px 0;
+  text-transform: uppercase;
+  color: #b6b6b6;
+  text-align: left;
+}
+
+.textarea {
+  height: 345px;
+}
+.textarea[placeholder] {
+  font: 600 normal 18.12px / 1.5 "Inter";
+  margin: 26px 0 0 0;
+  text-align: left;
+}
