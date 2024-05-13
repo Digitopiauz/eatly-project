@@ -892,6 +892,13 @@
     color: #6c5fbc;
     height: 75px;
     width: 757px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .banner_button:hover {
+    background-color: #fff;
+    color: #6c5fbc;
+    cursor: pointer;
   }
 
   .banner_button_food {
@@ -1046,6 +1053,14 @@
     text-align: center;
     background-color: #6c5fbc;
     padding: 19px 0 19px 0;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #6c5fbc;
+  }
+
+  .banner_filter_button:hover {
+    background-color: #fff;
+    color: #6c5fbc;
+    cursor: pointer;
   }
 
   .menu_title_left {

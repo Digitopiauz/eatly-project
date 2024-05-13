@@ -170,6 +170,11 @@
     height: 5.57px;
   }
 
+  .active {
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+  }
+
   .faq_details_text_body {
     display: grid;
     grid-template-rows: 0fr;
@@ -267,6 +272,11 @@
   .faq_details_img_plus {
     width: 7px;
     height: 7px;
+  }
+
+  .active {
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
   }
 
   .faq_details_text_body {
