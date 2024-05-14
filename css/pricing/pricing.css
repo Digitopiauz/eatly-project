@@ -1,9 +1,8 @@
 .pricing {
-  padding: 100px 0 990px 0;
+  padding: 204px 0 204px 0;
 }
 
 .pricing_ctn {
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,7 +25,7 @@
 
   width: 52.46px;
   height: 61.74px;
-  background-color: #fff;
+
   background-image: url("/img/icon/Illustration 01.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -66,6 +65,7 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .pricing_left_title::before {
   content: "";
   position: absolute;
@@ -103,6 +103,7 @@
   border: 2px solid #6c5fbc;
   border-radius: 16.89px;
 }
+
 .pricing_input[placeholder] {
   border: 2px solid #6c5fbc;
   font: 600 normal 16.89px / 1.5 "Inter";
@@ -120,4 +121,512 @@
   font: 600 normal 18.12px / 1.5 "Inter";
   margin: 26px 0 0 0;
   text-align: left;
+}
+
+.pricing_btn {
+  text-align: center;
+  padding: 43px 0 0 0;
+}
+
+.pricing_button {
+  padding: 23px 0 23px 0;
+  font: 500 normal 20.81px / 1.5 "Poppins";
+  color: #f9f9f9;
+  background-color: #6c5fbc;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 15.88px;
+  border: 2px solid #6c5fbc;
+}
+
+.pricing_button::after {
+  content: "";
+}
+
+.pricing_button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #6c5fbc;
+}
+
+@media (min-width: 320px) {
+  .pricing {
+    padding: 150px 0 204px 0;
+  }
+
+  .pricing_ctn {
+    display: block;
+    margin: 0 auto;
+    width: 315px;
+  }
+
+  .pricing_left {
+    background-color: #6c5fbc;
+    width: 315px;
+    height: 150px;
+    margin: 0 0 100px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .pricing_left::before {
+    position: absolute;
+    content: "";
+    top: 38%;
+    right: -28%;
+
+    width: 52.46px;
+    height: 61.74px;
+
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pricing_left::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: -20%;
+    border-radius: 50px;
+    width: 304px;
+    height: 609px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 11;
+  }
+
+  .pricing_left_title {
+    padding: 23px 0 0 0;
+    text-align: center;
+    font: 600 normal 24px / 1.05 "Poppins";
+
+    letter-spacing: -0.53px;
+    text-align: center;
+
+    color: #f9f9f9;
+    position: relative;
+  }
+
+  .pricing_left_title::after {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 366px;
+    height: 127px;
+
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pricing_left_title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    width: 79.86px;
+    height: 85.59px;
+
+    background-image: url("/img/pricing/Arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pricing_right {
+  }
+
+  .pricing_right_title {
+    display: none;
+    font: 600 normal 40px / 1.385 "Poppins";
+    padding: 0 0 62px 0;
+    text-align: left;
+  }
+
+  .pricing_right_input_ctn {
+  }
+
+  .pricing_right_input {
+  }
+
+  .pricing_input {
+    width: 315px;
+    border: 2px solid #6c5fbc;
+    border-radius: 16.89px;
+  }
+
+  .pricing_input[placeholder] {
+    border: 2px solid #6c5fbc;
+    font: 600 normal 10.62px / 1.5 "Inter";
+
+    padding: 20px 0 20px 15px;
+    margin: 0 0 26px 0;
+    text-transform: uppercase;
+    color: #b6b6b6;
+    text-align: left;
+  }
+
+  .textarea {
+    height: 210px;
+  }
+  .textarea[placeholder] {
+    font: 600 normal 11.04px / 1.5 "Inter";
+
+    margin: 26px 0 0 0;
+    text-align: left;
+  }
+
+  .pricing_btn {
+    text-align: center;
+    padding: 22px 0 0 0;
+  }
+
+  .pricing_button {
+    padding: 18px 0 17px 0;
+    font: 500 normal 13.08px / 1.5 "Poppins";
+
+    width: 100%;
+    color: #f9f9f9;
+    background-color: #6c5fbc;
+    border-radius: 15.88px;
+    border: 2px solid #6c5fbc;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .pricing_button::after {
+    content: "";
+  }
+
+  .pricing_button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #6c5fbc;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pricing {
+    padding: 204px 0 204px 0;
+  }
+
+  .pricing_ctn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .pricing_left {
+    background-color: #6c5fbc;
+    width: 377.6px;
+    height: 581.69px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .pricing_left::before {
+    position: absolute;
+    content: "";
+    top: 38%;
+    right: -28%;
+
+    width: 37.31px;
+    height: 43.9px;
+
+    background-image: url("/img/icon/Illustration 01.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pricing_left::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: -20%;
+    border-radius: 30px;
+    width: 216.18px;
+    height: 433.07px;
+    background-image: url("/img/mobileScreen.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 11;
+  }
+
+  .pricing_left_title {
+    padding: 60px 0 0 0;
+    text-align: center;
+
+    font: 600 normal 34.13px / 1.05 "Poppins";
+    color: #f9f9f9;
+    position: relative;
+  }
+
+  .pricing_left_title::after {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 238.93px;
+    height: 90.69px;
+
+    background-image: url("/img/pricing/01.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pricing_left_title::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    width: 21.33px;
+    height: 40.24px;
+
+    background-image: url("/img/pricing/02.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pricing_right {
+  }
+
+  .pricing_right_title {
+    font: 600 normal 28.44px / 1.385 "Poppins";
+    display: block;
+    padding: 0 0 43px 0;
+    text-align: left;
+  }
+
+  .pricing_right_title span {
+    color: #6c5fbc;
+  }
+
+  .pricing_right_input_ctn {
+  }
+
+  .pricing_right_input {
+  }
+
+  .pricing_input {
+    width: 350px;
+    border: 2px solid #6c5fbc;
+    border-radius: 16.89px;
+  }
+
+  .pricing_input[placeholder] {
+    border: 2px solid #6c5fbc;
+    font: 600 normal 12.01px / 1.5 "Inter";
+
+    padding: 18px 0 18px 25px;
+    margin: 0 0 18px 0;
+    text-transform: uppercase;
+    color: #b6b6b6;
+    text-align: left;
+  }
+
+  .textarea {
+    height: 245px;
+  }
+
+  .textarea[placeholder] {
+    font: 600 normal 12.01px / 1.5 "Inter";
+
+    margin: 18px 0 0 0;
+    text-align: left;
+  }
+
+  .pricing_btn {
+    text-align: center;
+    padding: 43px 0 0 0;
+  }
+
+  .pricing_button {
+    padding: 16px 0 16px 0;
+    font: 500 normal 14.8px / 1.5 "Poppins";
+
+    letter-spacing: 0.03em;
+
+    color: #f9f9f9;
+    background-color: #6c5fbc;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15.88px;
+    border: 2px solid #6c5fbc;
+  }
+
+  .pricing_button::after {
+    content: "";
+  }
+
+  .pricing_button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #6c5fbc;
+  }
+}
+
+@media (min-width: 1440px) {
+  .pricing {
+    padding: 204px 0 204px 0;
+  }
+
+  .pricing_ctn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+
+    width: 1380px;
+    margin: 0 auto;
+  }
+
+  .pricing_left {
+    background-color: #6c5fbc;
+
+    width: 531px;
+    height: 818px;
+    gap: 0px;
+    opacity: 0px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .pricing_left::before {
+    position: absolute;
+    content: "";
+    top: 38%;
+    right: -28%;
+
+    width: 52.46px;
+    height: 61.74px;
+
+    background-image: url("/img/icon/Illustration 01.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pricing_left::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: -20%;
+    border-radius: 50px;
+    width: 304px;
+    height: 609px;
+    background-image: url("/img/mobileScreen.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 11;
+  }
+
+  .pricing_left_title {
+    padding: 84px 0 0 0;
+    text-align: center;
+    font: 600 normal 48px / 1.05 "Poppins";
+    color: #f9f9f9;
+    position: relative;
+  }
+
+  .pricing_left_title::after {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 366px;
+    height: 127px;
+
+    background-image: url("/img/pricing/01.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .pricing_left_title::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    width: 30px;
+    height: 57px;
+
+    background-image: url("/img/pricing/02.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pricing_right {
+  }
+
+  .pricing_right_title {
+    font: 600 normal 40px / 1.385 "Poppins";
+    padding: 0 0 62px 0;
+    text-align: left;
+  }
+
+  .pricing_right_title span {
+    color: #6c5fbc;
+  }
+
+  .pricing_right_input_ctn {
+  }
+
+  .pricing_right_input {
+  }
+
+  .pricing_input {
+    width: 493px;
+    border: 2px solid #6c5fbc;
+    border-radius: 16.89px;
+  }
+
+  .pricing_input[placeholder] {
+    border: 2px solid #6c5fbc;
+    font: 600 normal 16.89px / 1.5 "Inter";
+    padding: 25px 0 25px 25px;
+    margin: 0 0 26px 0;
+    text-transform: uppercase;
+    color: #b6b6b6;
+    text-align: left;
+  }
+
+  .textarea {
+    height: 345px;
+  }
+  .textarea[placeholder] {
+    font: 600 normal 18.12px / 1.5 "Inter";
+    margin: 26px 0 0 0;
+    text-align: left;
+  }
+
+  .pricing_btn {
+    text-align: center;
+    padding: 43px 0 0 0;
+  }
+
+  .pricing_button {
+    padding: 23px 0 23px 0;
+    font: 500 normal 20.81px / 1.5 "Poppins";
+    color: #f9f9f9;
+    background-color: #6c5fbc;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15.88px;
+    border: 2px solid #6c5fbc;
+  }
+
+  .pricing_button::after {
+    content: "";
+  }
+
+  .pricing_button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #6c5fbc;
+  }
 }
