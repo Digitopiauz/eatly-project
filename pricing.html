@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/logo/page_logo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/index.css" />
+
     <title>Pricing</title>
   </head>
   <body>
@@ -53,60 +59,339 @@
 
       <main class="main">
         <section class="pricing">
-          <div class="pricing_ctn">
-            <div class="pricing_left">
-              <h1 class="pricing_left_title">Just Contact</h1>
-            </div>
-
-            <div class="pricing_right">
-              <h2 class="pricing_right_title">
-                Customer <span> Support</span>
-              </h2>
-
-              <div class="pricing_right_input_ctn">
-                <div class="pricing_right_input">
-                  <input
-                    class="pricing_input"
-                    type="text"
-                    placeholder="full name"
-                  />
-                </div>
-
-                <div class="pricing_right_input">
-                  <input
-                    class="pricing_input"
-                    type="email"
-                    placeholder="enter your email "
-                  />
-                </div>
-
-                <div class="pricing_right_input">
-                  <!-- <input
-                      type="text"
-                      class="pricing_input textarea"
-                      placeholder="Enter The Problem Or Query "
-                    /> -->
-
-                  <textarea
-                    name=""
-                    id=""
-                    class="pricing_input textarea"
-                    placeholder="Enter The Problem Or Query"
-                    cols="45"
-                    rows="45"
-                  ></textarea>
-                </div>
-              </div>
-
-              <div class="pricing_btn">
-                <button type="button" class="pricing_button">Send Now</button>
+          <div class="pricing_container">
+            <div class="pricing_title_ctn">
+              <h2 class="pricing_title">Our Pricing</h2>
+              <div class="pricing_img">
+                <img src="./img/pricing/03.png" alt="" />
               </div>
             </div>
           </div>
         </section>
+
+        <section class="pricing_card">
+          <div class="pricing_card_container">
+            <div class="pricing_headlines">
+              <div class="pricing_headlines_item">
+                <h2 class="pricing_headlines_item_title">Pricing</h2>
+                <p class="pricing_headlines_item_subtitle">
+                  Affordable Basic & Pro Plans
+                </p>
+              </div>
+
+              <div class="pricing_headlines_left">
+                <div class="pricing_headlines_item">
+                  <h2
+                    class="pricing_headlines_item_title pricing_headlines_left_title"
+                  >
+                    Basic
+                  </h2>
+                  <p class="pricing_headlines_item_subtitle">
+                    Completely 100% Free Plan
+                  </p>
+                </div>
+
+                <div class="pricing_headlines_item">
+                  <h2
+                    class="pricing_headlines_item_title pricing_headlines_left_title"
+                  >
+                    Premium
+                  </h2>
+                  <p class="pricing_headlines_item_subtitle">
+                    Amazing Premium Features Plan 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pricing_price">
+              <div class="pricing_price__price">0</div>
+              <div class="pricing_price__price">5</div>
+            </div>
+
+            <div class="pricing_core_features">
+              <h2 class="pricing_core_features_title">Core features</h2>
+
+              <div class="pricing_core_features_list">
+                <div class="pricing_core_features_item">
+                  <p class="pricing_core_features_item_title">Support 24/7</p>
+                  <div class="pricing_core_features_item_btn">
+                    <button
+                      type="submit"
+                      class="pricing_core_features_item_button"
+                    >
+                      s
+                    </button>
+
+                    <button
+                      type="submit"
+                      class="pricing_core_features_item_button"
+                    >
+                      s
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="control pricing_control">
+          <div class="control_ctn">
+            <div class="control_right">
+              <h2 class="control_title">
+                Control <span>Purchases</span> Via Dashboard
+              </h2>
+
+              <ul class="control_list">
+                <li class="control_item">
+                  <div class="control_img">
+                    <img src="/img/control/1.png" alt="" />
+                  </div>
+
+                  <div class="control_info">
+                    <h2 class="control_info_title">Chicken Hell</h2>
+                    <p class="control_info_status">On The Way</p>
+
+                    <div class="control_info_time">3:09 PM</div>
+                  </div>
+                </li>
+
+                <li class="control_item">
+                  <div class="control_img">
+                    <img src="/img/control/2.png" alt="" />
+                  </div>
+
+                  <div class="control_info">
+                    <h2 class="control_info_title">Swe Dish</h2>
+                    <p class="control_info_status control_info_status-green">
+                      Delivered
+                    </p>
+
+                    <div class="control_info_time">Yesterday</div>
+                  </div>
+                </li>
+
+                <li class="control_item">
+                  <div class="control_img">
+                    <img src="/img/control/3.png" alt="" />
+                  </div>
+
+                  <div class="control_info">
+                    <h2 class="control_info_title">Fish Hell Veg</h2>
+                    <p class="control_info_status control_info_status-red">
+                      Cancelled
+                    </p>
+
+                    <div class="control_info_time">Yesterday</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="control_left">
+              <div class="control_option">
+                <h3 class="control_option_title">Purchases</h3>
+                <div class="control_option_select_vector">
+                  <select name="" id="" class="control_option_select">
+                    <option class="control_option_option" value="">
+                      This month
+                    </option>
+                    <option value="" class="control_option_option">
+                      This Week
+                    </option>
+                    <option value="" class="control_option_option">
+                      This Year
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <ul class="control_left_list">
+                <li class="control_left_item">
+                  <div class="control_left_icon_text">
+                    <span class="control_left_item_icon"></span>
+                    <div class="control_left_item_text">
+                      <h4 class="control_left_item_title">Expense</h4>
+                      <p class="control_left_text">Increased By 10%</p>
+                    </div>
+                  </div>
+
+                  <div class="control_left_item_price">$409.00</div>
+                </li>
+
+                <li class="control_left_item control_left_item_yellow">
+                  <div class="control_left_icon_text">
+                    <span
+                      class="control_left_item_icon control_left_item_icon_money money_bg"
+                    ></span>
+                    <div class="control_left_item_text">
+                      <h4 class="control_left_item_title">Vocher Usage</h4>
+                      <p class="control_left_text">Increased By 5%</p>
+                    </div>
+                  </div>
+
+                  <div class="control_left_item_price">$45.78</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews">
+          <h2 class="reviews_titles"><span> Customer </span> Say</h2>
+          <div class="reviews_container _container">
+            <div class="swiper">
+              <div class="reviews_list swiper-wrapper">
+                <div class="reviews_item swiper-slide">
+                  <div class="reviews_header">
+                    <div class="reviews_img">
+                      <img src="/img/reviews/Pic.png" alt="" />
+                    </div>
+
+                    <div class="reviews_info">
+                      <div class="reviews_info_title">Alexander R.</div>
+                      <div class="reviews_info_subtitle">01 Year With Us</div>
+                    </div>
+                  </div>
+                  <p class="reviews_text">
+                    “ Online invoice payment helps companies save time, are
+                    faster and save maximum effort for the clients and save
+                    maximum effort. Online invoice payment helps companies save
+                    time ”
+                  </p>
+
+                  <div class="reviews_rating">
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="reviews_item swiper-slide">
+                  <div class="reviews_header">
+                    <div class="reviews_img">
+                      <img src="/img/reviews/Pic.png" alt="" />
+                    </div>
+
+                    <div class="reviews_info">
+                      <div class="reviews_info_title">Alexander R.</div>
+                      <div class="reviews_info_subtitle">01 Year With Us</div>
+                    </div>
+                  </div>
+                  <p class="reviews_text">
+                    “ Online invoice payment helps companies save time, are
+                    faster and save maximum effort for the clients and save
+                    maximum effort. Online invoice payment helps companies save
+                    time ”
+                  </p>
+
+                  <div class="reviews_rating">
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="reviews_item swiper-slide">
+                  <div class="reviews_header">
+                    <div class="reviews_img">
+                      <img src="/img/reviews/Pic.png" alt="" />
+                    </div>
+
+                    <div class="reviews_info">
+                      <div class="reviews_info_title">Alexander R.</div>
+                      <div class="reviews_info_subtitle">01 Year With Us</div>
+                    </div>
+                  </div>
+                  <p class="reviews_text">
+                    “ Online invoice payment helps companies save time, are
+                    faster and save maximum effort for the clients and save
+                    maximum effort. Online invoice payment helps companies save
+                    time ”
+                  </p>
+
+                  <div class="reviews_rating">
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                    <img
+                      class="reviews_rating_star"
+                      src="/img/reviews/star.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- </div> -->
+        </section>
       </main>
     </div>
-    <footer class="footer">
+    <footer class="footer pricing_footer">
       <div class="footer_ctn">
         <div class="footer_upper">
           <div class="footer_head_small">
@@ -208,5 +493,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/swiper.js"></script>
   </body>
 </html>
