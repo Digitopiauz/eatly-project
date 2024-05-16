@@ -2,23 +2,26 @@
   margin: 250px 0 0 0;
 }
 
-.pricing_card_container {
+.pricing_card_ctn {
   border-radius: 15px;
-  background: #f9f9f9;
+  background: #ffff;
+  box-shadow: 0 5px 10px 0 #323142;
+  width: 1251px;
+  margin: 0 auto;
 }
 
 .pricing_headlines {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
-  padding: 51px 92px 37px 78px;
-
-  border-bottom: 1px solid red;
+  justify-content: center;
+  padding: 51px 40px 40px 0;
+  border-bottom: 1px solid #cbcbcb;
   gap: 428px;
 }
 
 .pricing_headlines_left {
   display: flex;
+  align-items: center;
   gap: 235px;
 }
 
@@ -39,6 +42,7 @@
 
 .pricing_headlines_item_title {
   font: 600 normal 40px / 1.2 "Poppins";
+
   letter-spacing: -1px;
   text-align: left;
   padding: 0 0 25px 0;
@@ -46,7 +50,7 @@
 
 .pricing_headlines_left_title {
   font: 600 normal 35px / 1.2 "Poppins";
-  padding: 0 0 31px 0;
+  padding: 0 0 32px 0;
   letter-spacing: -1px;
   text-align: left;
 }
@@ -62,17 +66,13 @@
   align-items: center;
   gap: 330px;
   justify-content: end;
-  padding: 42px 210px 40px 0;
-  border-bottom: 1px solid red;
+  padding: 40px 197px 40px 0;
+  border-bottom: 1px solid #cbcbcb;
 }
 
 .pricing_price__price {
   font: 600 normal 64px / 1.125 "Poppins";
-  font-family: Poppins;
-  font-size: 64px;
-  font-weight: 600;
-  line-height: 72px;
-  text-align: right;
+
   position: relative;
 }
 
@@ -83,6 +83,7 @@
   top: 10%;
   left: -36%;
 }
+
 .pricing_price__price::after {
   content: "/month";
   position: absolute;
@@ -93,16 +94,12 @@
 }
 
 .pricing_core_features {
-  padding: 50px 215px 62px 75px;
-  border-bottom: 1px solid red;
+  padding: 50px 215px 26px 65px;
+  border-bottom: 1px solid #cbcbcb;
 }
 
 .pricing_core_features_title {
   font: 600 normal 24px / 1.3 "Poppins";
-  font-family: Poppins;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 32px;
   text-align: left;
   padding: 0 0 48px 0;
 }
@@ -123,6 +120,7 @@
   text-align: left;
   color: #606060;
 }
+
 .pricing_core_features_item_btn {
   display: flex;
   align-items: center;
@@ -135,9 +133,555 @@
   border-radius: 50%;
   height: 35px;
   transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing_core_features_item_button img {
+  width: 16px;
 }
 
 .pricing_core_features_item_button:hover {
   cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-content: center;
+  gap: 230px;
+  justify-content: end;
+  padding: 44px 106px 54px 0;
+}
+
+.buttons_btn {
+  font: 500 normal 16.27px / 1.5 "Poppins";
+  letter-spacing: 3%;
+  text-transform: uppercase;
+
+  padding: 17px 27px 17px 28px;
+  background: #6c5fbc;
+  border-radius: 12.41px;
+  color: #f9f9f9;
+
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #6c5fbc;
+}
+
+.buttons_btn:hover {
   background-color: #fff;
+  color: #6c5fbc;
+  cursor: pointer;
+}
+
+.buttons_btn_pro {
+  padding: 17px 30px 17px 28px;
+}
+
+@media (min-width: 320px) {
+  .pricing_card {
+    display: none;
+    visibility: hidden;
+  }
+
+  .small_pricing {
+    padding: 250px 0 0 0;
+  }
+  .small_pricing_ctn {
+    width: 312px;
+    margin: 0 auto;
+  }
+
+  .small_pricing_price {
+    background: #ffff;
+    box-shadow: 0 5px 10px 0 #323142;
+    border-radius: 15px;
+    padding: 31px 28px 32px 20px;
+  }
+
+  .small_pricing_title_ctn {
+    border-bottom: 0.71px solid #c2c2c2;
+    padding: 0 0 22px 0;
+  }
+
+  .small_pricing_title {
+    font: 600 normal 26px / 1.2 "Poppins";
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.2px;
+    letter-spacing: -0.71px;
+    text-align: left;
+    padding: 0 0 18px 5px;
+  }
+
+  .small_pricing__price {
+    font: 600 normal 45.54px / 1.125 "Poppins";
+    padding: 0 0 0 12px;
+    text-align: left;
+    position: relative;
+  }
+
+  .small_pricing__price::before {
+    position: absolute;
+    top: 6%;
+    left: 0;
+    content: "$";
+    font: 600 normal 17.08px / 1.33 "Poppins";
+    text-align: left;
+  }
+
+  .small_pricing__price::after {
+    position: absolute;
+    bottom: 13%;
+    left: 14.5%;
+    content: "/month";
+    font: 500 normal 11.39px / 1.49 "Inter";
+    text-align: left;
+    color: #6e757c;
+  }
+
+  .small_pricing__subtitle {
+    font: 500 normal 11.39px / 1.49 "Inter";
+    width: 105px;
+    text-align: left;
+    padding: 24px 0 0 7px;
+    color: #6e757c;
+  }
+
+  .small_pricing_btn {
+    padding: 18px 0 0 0;
+  }
+
+  .small_pricing_button {
+    font: 500 normal 11.58px / 1.5 "Poppins";
+    background-color: #6c5fbc;
+    padding: 12px 18px 12px 18px;
+    border-radius: 8.83px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    letter-spacing: 0.03em;
+    text-align: left;
+    border: 1px solid #6c5fbc;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .small_pricing_button:hover {
+    background-color: #fff;
+    color: #6c5fbc;
+    cursor: pointer;
+  }
+
+  .small_pricing_option {
+    padding: 32px 0 0 5px;
+  }
+
+  .small_pricing_select {
+  }
+
+  .small_pricing_select_title {
+    font: 700 normal 13.81px / 1.49 "Inter";
+    text-align: left;
+    position: relative;
+    padding: 0 0 24px 0;
+  }
+
+  .small_pricing_select_title:after {
+    content: "";
+    position: absolute;
+    top: 30%;
+
+    left: 36.5%;
+    width: 11.22px;
+    height: 11.22px;
+    background-image: url("/img/pricing/icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .small_pricing_select_option {
+    font: 500 normal 11.89px / 1.45 "Poppins";
+    color: #606060;
+    text-align: left;
+    padding: 0 0 13px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pricing_card {
+    margin: 250px 0 0 0;
+    display: block;
+    visibility: visible;
+  }
+
+  .small_pricing {
+    display: none;
+    padding: 0;
+    visibility: hidden;
+  }
+
+  .pricing_card_ctn {
+    border-radius: 10.67px;
+    background: #ffff;
+    box-shadow: 0 5px 10px 0 #323142;
+    width: 889px;
+    margin: 0 auto;
+  }
+
+  .pricing_headlines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 30px 30px 0;
+    border-bottom: 1px solid #cbcbcb;
+    gap: 304px;
+  }
+
+  .pricing_headlines_left {
+    display: flex;
+    align-items: center;
+    gap: 169px;
+  }
+
+  .pricing_headlines_item {
+  }
+
+  .pricing_headlines_item:nth-child(1) {
+    width: 96px;
+  }
+
+  .pricing_headlines_item:nth-child(2) {
+    width: 105px;
+  }
+
+  .pricing_headlines_item:nth-child(3) {
+    width: 112px;
+  }
+
+  .pricing_headlines_item_title {
+    font: 600 normal 28.44px / 1.2 "Poppins";
+
+    letter-spacing: -0.71px;
+    text-align: left;
+    padding: 0 0 17px 0;
+  }
+
+  .pricing_headlines_left_title {
+    font: 600 normal 24.89px / 1.2 "Poppins";
+
+    padding: 0 0 22px 0;
+    letter-spacing: -0.71px;
+    text-align: left;
+  }
+
+  .pricing_headlines_item_subtitle {
+    font: 500 normal 11.38px / 1.5 "Inter";
+
+    color: #6e757c;
+    text-align: left;
+  }
+
+  .pricing_price {
+    display: flex;
+    align-items: center;
+    gap: 235px;
+    justify-content: end;
+    padding: 28px 139px 27px 0;
+    border-bottom: 1px solid #cbcbcb;
+  }
+
+  .pricing_price__price {
+    font: 600 normal 45.51px / 1.125 "Poppins";
+
+    text-align: right;
+    position: relative;
+  }
+
+  .pricing_price__price::before {
+    content: "$";
+    font: 600 normal 17.07px/ 1.3 "Inter";
+
+    position: absolute;
+    top: 7%;
+    left: -36%;
+  }
+
+  .pricing_price__price::after {
+    content: "/month";
+    font: 500 normal 11.38px / 1.5 "Inter";
+
+    position: absolute;
+    right: -135%;
+    bottom: 12%;
+  }
+
+  .pricing_core_features {
+    padding: 36px 154px 18px 44px;
+    border-bottom: 1px solid #cbcbcb;
+  }
+
+  .pricing_core_features_title {
+    font: 600 normal 17.07px / 1.3 "Poppins";
+
+    text-align: left;
+    padding: 0 0 34px 0;
+  }
+
+  .pricing_core_features_list {
+  }
+
+  .pricing_core_features_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 25px 0;
+  }
+
+  .pricing_core_features_item_title {
+    font: 500 normal 15.64px /1.45 "Poppins";
+
+    text-align: left;
+    color: #606060;
+  }
+
+  .pricing_core_features_item_btn {
+    display: flex;
+    align-items: center;
+    gap: 240px;
+  }
+
+  .pricing_core_features_item_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24.89px;
+    height: 24.89px;
+
+    background: #6c5fbc;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .pricing_core_features_item_button img {
+    width: 11.38px;
+  }
+
+  .pricing_core_features_item_button:hover {
+    cursor: pointer;
+  }
+
+  .buttons {
+    display: flex;
+    align-content: center;
+    gap: 165px;
+    justify-content: end;
+    padding: 31px 74px 38px 0;
+  }
+
+  .buttons_btn {
+    font: 500 normal 11.57px / 1.5 "Poppins";
+    letter-spacing: 3%;
+    text-transform: uppercase;
+
+    padding: 12px 18px;
+    background: #6c5fbc;
+    border-radius: 8.83px;
+    color: #f9f9f9;
+
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #6c5fbc;
+  }
+
+  .buttons_btn:hover {
+    background-color: #fff;
+    color: #6c5fbc;
+    cursor: pointer;
+  }
+
+  .buttons_btn_pro {
+    padding: 12px 20px 12px 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .pricing_card {
+    margin: 250px 0 0 0;
+  }
+
+  .pricing_card_ctn {
+    border-radius: 15px;
+    background: #ffff;
+    box-shadow: 0 5px 10px 0 #323142;
+    width: 1251px;
+    margin: 0 auto;
+  }
+
+  .pricing_headlines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 51px 40px 40px 0;
+    border-bottom: 1px solid #cbcbcb;
+    gap: 428px;
+  }
+
+  .pricing_headlines_left {
+    display: flex;
+    align-items: center;
+    gap: 235px;
+  }
+
+  .pricing_headlines_item {
+  }
+
+  .pricing_headlines_item:nth-child(1) {
+    width: 135px;
+  }
+
+  .pricing_headlines_item:nth-child(2) {
+    width: 148px;
+  }
+
+  .pricing_headlines_item:nth-child(3) {
+    width: 158px;
+  }
+
+  .pricing_headlines_item_title {
+    font: 600 normal 40px / 1.2 "Poppins";
+
+    letter-spacing: -1px;
+    text-align: left;
+    padding: 0 0 25px 0;
+  }
+
+  .pricing_headlines_left_title {
+    font: 600 normal 35px / 1.2 "Poppins";
+    padding: 0 0 32px 0;
+    letter-spacing: -1px;
+    text-align: left;
+  }
+
+  .pricing_headlines_item_subtitle {
+    font: 500 normal 16px / 1.5 "Inter";
+    color: #6e757c;
+    text-align: left;
+  }
+
+  .pricing_price {
+    display: flex;
+    align-items: center;
+    gap: 330px;
+    justify-content: end;
+    padding: 40px 197px 40px 0;
+    border-bottom: 1px solid #cbcbcb;
+  }
+
+  .pricing_price__price {
+    font: 600 normal 64px / 1.125 "Poppins";
+
+    position: relative;
+  }
+
+  .pricing_price__price::before {
+    content: "$";
+    font: 600 normal 24px / 1.3 "Inter";
+    position: absolute;
+    top: 10%;
+    left: -36%;
+  }
+
+  .pricing_price__price::after {
+    content: "/month";
+    position: absolute;
+    right: -135%;
+    bottom: 9%;
+
+    font: 500 normal 16px / 1.5 "Inter";
+  }
+
+  .pricing_core_features {
+    padding: 50px 215px 26px 65px;
+    border-bottom: 1px solid #cbcbcb;
+  }
+
+  .pricing_core_features_title {
+    font: 600 normal 24px / 1.3 "Poppins";
+    text-align: left;
+    padding: 0 0 48px 0;
+  }
+
+  .pricing_core_features_list {
+  }
+
+  .pricing_core_features_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 35px 0;
+  }
+
+  .pricing_core_features_item_title {
+    font: 500 normal 22px /1.45 "Poppins";
+
+    text-align: left;
+    color: #606060;
+  }
+
+  .pricing_core_features_item_btn {
+    display: flex;
+    align-items: center;
+    gap: 338px;
+  }
+
+  .pricing_core_features_item_button {
+    width: 35px;
+    background: #6c5fbc;
+    border-radius: 50%;
+    height: 35px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pricing_core_features_item_button img {
+    width: 16px;
+  }
+
+  .pricing_core_features_item_button:hover {
+    cursor: pointer;
+  }
+
+  .buttons {
+    display: flex;
+    align-content: center;
+    gap: 230px;
+    justify-content: end;
+    padding: 44px 106px 54px 0;
+  }
+
+  .buttons_btn {
+    font: 500 normal 16.27px / 1.5 "Poppins";
+    letter-spacing: 3%;
+    text-transform: uppercase;
+
+    padding: 17px 27px 17px 28px;
+    background: #6c5fbc;
+    border-radius: 12.41px;
+    color: #f9f9f9;
+
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #6c5fbc;
+  }
+
+  .buttons_btn:hover {
+    background-color: #fff;
+    color: #6c5fbc;
+    cursor: pointer;
+  }
+
+  .buttons_btn_pro {
+    padding: 17px 30px 17px 28px;
+  }
 }
