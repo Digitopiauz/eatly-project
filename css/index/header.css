@@ -12,9 +12,11 @@
   color: #6c5fbc;
   cursor: pointer;
 }
+
 @media (min-width: 320px) {
   .header {
   }
+
   .header__container {
     min-height: 100px;
     display: flex;
@@ -27,9 +29,18 @@
     width: 111.94px;
     height: 42.31px;
   }
+
   .header_menu {
     display: none;
-    background-color: #fff;
+  }
+
+  .menu__list {
+    row-gap: 30px;
+  }
+
+  .menu_item {
+    font: 500 normal 12.68px / 1.5 "Inter";
+    color: #606060;
   }
 
   .menu_login_box {
@@ -37,7 +48,43 @@
   }
 
   .burger {
-    display: block;
+    display: flex;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    width: 31.5px;
+    height: 22.33px;
+  }
+
+  .burger::before,
+  .burger:after {
+    content: "";
+    position: absolute;
+
+    height: 2px;
+
+    width: 100%;
+    background: #000;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .burger::before {
+    top: 0;
+  }
+
+  .burger:after {
+    bottom: 0;
+  }
+
+  .burger_span {
+    height: 2px;
+    width: 100%;
+    transform: scale(1);
+    background: #000;
+  }
+
+  .burger_span.actives {
+    transform: scale(0);
   }
 }
 
@@ -107,6 +154,7 @@
 @media (min-width: 1440px) {
   .header {
   }
+
   .header__container {
     display: flex;
     align-items: center;

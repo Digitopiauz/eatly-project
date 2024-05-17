@@ -188,7 +188,7 @@
     grid-template-rows: 1fr;
 
     visibility: visible;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
   }
 
   .faq_details_text {

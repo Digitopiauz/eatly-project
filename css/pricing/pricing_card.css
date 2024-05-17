@@ -192,11 +192,15 @@
     margin: 0 auto;
   }
 
+  .small_pricing_ctn_first {
+    padding: 0 0 100px 0;
+  }
+
   .small_pricing_price {
     background: #ffff;
     box-shadow: 0 5px 10px 0 #323142;
     border-radius: 15px;
-    padding: 31px 28px 32px 20px;
+    padding: 31px 28px 7px 20px;
   }
 
   .small_pricing_title_ctn {
@@ -243,7 +247,7 @@
 
   .small_pricing__subtitle {
     font: 500 normal 11.39px / 1.49 "Inter";
-    width: 105px;
+    width: 120px;
     text-align: left;
     padding: 24px 0 0 7px;
     color: #6e757c;
@@ -277,6 +281,19 @@
   }
 
   .small_pricing_select {
+    /* display: none;
+    visibility: hidden; */
+    appearance: none;
+    transition: all 0.3s ease-in-out;
+
+    padding: 0 0 25px 0;
+  }
+
+  .small_pricing_select_show {
+    /* display: block;
+
+    transition: all 0.3s ease-in-out;
+    visibility: visible; */
   }
 
   .small_pricing_select_title {
@@ -284,12 +301,18 @@
     text-align: left;
     position: relative;
     padding: 0 0 24px 0;
+    transition: all 0.3s ease-in-out;
+    list-style: none;
+  }
+
+  .small_pricing_select_title:hover {
+    cursor: pointer;
   }
 
   .small_pricing_select_title:after {
     content: "";
     position: absolute;
-    top: 30%;
+    top: 15%;
 
     left: 36.5%;
     width: 11.22px;
@@ -303,7 +326,26 @@
     font: 500 normal 11.89px / 1.45 "Poppins";
     color: #606060;
     text-align: left;
-    padding: 0 0 13px 0;
+    padding: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .small_pricing_select_option__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18.92px;
+    height: 18.92px;
+    background-color: #6c5fbc;
+    border-radius: 50%;
+  }
+
+  .small_pricing_select_option_icon {
+    width: 8.65px;
+    height: 8.65px;
   }
 }
 
