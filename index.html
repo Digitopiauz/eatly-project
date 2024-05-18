@@ -18,7 +18,7 @@
       <header class="header">
         <div class="header__container _container">
           <div class="navigation">
-            <a href="#" class="header_logo__link"
+            <a href="index.html" class="header_logo__link"
               ><img src="./img/header_logo.svg" alt="" class="header_logo"
             /></a>
 
@@ -37,20 +37,20 @@
                   <a class="menu_item" href="/contact.html">Contact</a>
                 </li>
               </ul>
+              <div class="menu_login_box">
+                <a href="#" class="menu_login pointer" id="open-modal-btn_2"
+                  >Login</a
+                >
+                <button
+                  id="open-modal-btn"
+                  class="menu_button btn btn-border btn-transition pointer"
+                >
+                  Sign Up
+                </button>
+              </div>
             </nav>
           </div>
 
-          <div class="menu_login_box">
-            <a href="#" class="menu_login pointer" id="open-modal-btn_2"
-              >Login</a
-            >
-            <button
-              id="open-modal-btn"
-              class="menu_button btn btn-border btn-transition pointer"
-            >
-              Sign Up
-            </button>
-          </div>
           <div class="burger">
             <span class="burger_span"></span>
           </div>
@@ -908,13 +908,11 @@
               </div>
             </div>
 
-            <button class="modal_button pointer btn btn-transition">
-              SIGN UP
-            </button>
+            <button class="modal_button pointer btn-transition">SIGN UP</button>
 
             <div class="modal_text">
               <p class="modal_subtext">
-                Already Have An Account? <span>Log In</span>
+                Already Have An Account? <span><a href="#">Log In</a></span>
               </p>
             </div>
           </div>
@@ -1003,13 +1001,11 @@
               </div>
             </div>
 
-            <button class="modal_button pointer btn btn-transition">
-              SIGN UP
-            </button>
+            <button class="modal_button pointer btn-transition">SIGN UP</button>
 
             <div class="modal_text">
               <p class="modal_subtext">
-                Already Have An Account? <span>Log In</span>
+                Already Have An Account? <span><a href="#">Log In</a></span>
               </p>
             </div>
           </div>
@@ -1057,8 +1053,9 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/index.js"></script>
 
-    <script src="./js/swiper.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="/js/swiper.js"></script>
+    <script src="/js/burger.js"></script>
   </body>
 </html>

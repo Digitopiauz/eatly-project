@@ -80,8 +80,6 @@
   font: 600 normal 26px / 1.6 "Poppins";
 
   text-align: left;
-
-  /* margin: 5px 0 0 0; */
 }
 
 .restaurant_button {
@@ -257,11 +255,10 @@
   }
 
   .restaurant_container {
-    border-bottom: 1px solid #cbcbcb;
   }
 
   .restaurant_title {
-    font: 600 normal 45px / 1.7 "Poppins";
+    font: 400 normal 45px / 1.7 "Poppins";
 
     text-align: center;
     margin: 0 0 85px 0;
@@ -288,10 +285,6 @@
     cursor: pointer;
   }
 
-  .restaurant_item:hover {
-    transform: scale(1.1);
-  }
-
   .restaurant_img {
     position: relative;
   }
@@ -314,11 +307,11 @@
   }
 
   .restaurant_info {
-    padding: 10px 10px 17px 28px;
+    padding: 10px 10px 17px 34px;
   }
 
   .restaurant_info_tag {
-    font: 400 normal 13px / 1.46 "Poppins";
+    font: 400 normal 13px / 1.4 "Poppins";
 
     text-align: left;
     border-radius: 5px;
@@ -336,11 +329,9 @@
   }
 
   .restaurant_name {
-    font: 600 normal 26px / 1.5 "Poppins";
+    font: 600 normal 26px / 1.6 "Poppins";
 
     text-align: left;
-
-    /* margin: 5px 0 0 0; */
   }
 
   .restaurant_button {
@@ -352,7 +343,6 @@
   }
   .restaurant_min {
     font: 400 normal 19px / 1.36 "Manrope";
-
     text-align: left;
     color: #8e97a6;
   }
@@ -365,8 +355,8 @@
   .restaurant_rating::before {
     position: absolute;
     content: "";
-    top: 0;
-    left: -13.5%;
+    top: 10%;
+    left: -12.5%;
     background-image: url("/img/restartnt/star.svg");
     background-repeat: no-repeat;
     background-size: contain;

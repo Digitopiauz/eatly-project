@@ -13,8 +13,3 @@ document.getElementById("open-modal-btn_2").addEventListener("click", () => {
 document.getElementById("close_moda-btn_2").addEventListener("click", () => {
   document.getElementById("my-modal_2").classList.remove("open")
 })
-
-
-
-
-
